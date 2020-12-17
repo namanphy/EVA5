@@ -30,7 +30,7 @@ log likelihood.
 - The model is then trained for 20 epochs. The learning rate is selected as `0.01` for first 12 epochs and for last 8 epochs it was changed to `0.009`. This was selected after
 conduting some iterations over the model.
 
-- At the 18th epoch we were able to reach **98.41% accuracy**.
+- At the 18th epoch we were able to reach **99.41% validation accuracy**.
 
 
 ### Conclusion
