@@ -1,5 +1,6 @@
 ## MNIST classification with Pytorch
-The notebook contains the MNIST classification with Pytorch as per the EVA session 4 with a target of achieving 99.4% accuracy.
+The [notebook](https://github.com/namanphy/EVA5/blob/main/S4/eva_session4_architectural_basics.ipynb) contains the MNIST classification with Pytorch as per EVA session 4 
+with a target of achieving 99.4% accuracy.
 
 ### Aim
 Following targets must be achieved in the notebook.
