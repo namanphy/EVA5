@@ -15,6 +15,10 @@ Here, We have
 - Input image is of size - `1x28x28`.
 - Output is of size - `1x10`.
 
+
+![architecture](https://github.com/namanphy/EVA5/blob/main/S4/mnist-1.png)
+
+
 - We have used 4 convulation layers, along with 2 Batch normalisation and 2 Maxpool layers. At last the architecture is kept such the number of channels are converted to 10 to 
 match the output shape. Lastly, Global Average Pooling is applied on the final output to make the shape from `10x3x3` to `10x1x1` which is later reshaped and converted to 
 log likelihood.
@@ -22,7 +26,7 @@ log likelihood.
 
   Have a look at the model summary bellow.
 
-  ![architecture](https://github.com/namanphy/EVA5/blob/main/S4/arch.png)
+  ![params](https://github.com/namanphy/EVA5/blob/main/S4/arch.png)
 
 
 - The total number of trainable parameters are = **19,450**.
