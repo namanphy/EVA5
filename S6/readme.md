@@ -27,10 +27,10 @@ validation loss and accuracy obtained during model training in the following sce
 
 ## Results
 
-Accuracy curve
+#### Accuracy curve
 ![accuracy](https://github.com/namanphy/EVA5/blob/main/S6/images/accuracy.png)
 
-Loss curve
+#### Loss curve
 ![accuracy](https://github.com/namanphy/EVA5/blob/main/S6/images/loss.png)
 
 #### Misclassified Images
