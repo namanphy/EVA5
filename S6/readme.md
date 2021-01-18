@@ -37,9 +37,7 @@ validation loss and accuracy obtained during model training in the following sce
 ![accuracy](https://github.com/namanphy/EVA5/blob/main/S6/images/incorrect_predictions.png)
 
 
-## Start Guide
-Download the above notebook and run accrdingly.
-
 #### On Google Colab
-Select Python 3 as the runtime type and GPU as the harware accelerator.
+Select Python 3 as the runtime type and GPU as the harware accelerator and run the notebook.
+Make sure to install Pytorch.
 
