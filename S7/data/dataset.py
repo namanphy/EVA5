@@ -2,7 +2,7 @@ from torchvision import datasets, transforms
 
 
 def cifar10_dataset(location='../data', train=True, download=True, transform=None):
-    datasets.CIFAR10(location, train=train, download=download, transform=transform)
+    return datasets.CIFAR10(location, train=train, download=download, transform=transform)
 
 
 def transformations(augmentation=False, rotation=3.0):
