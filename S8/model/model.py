@@ -99,16 +99,12 @@ class ResNet(nn.Module):
         out = self.layer4(out)
         out = F.avg_pool2d(out, 4)
         out = out.view(out.size(0), -1)
-        out = self.linear(out)
+        out = self.linear(out)  # Using linear instead of F.log_softmax(x).
         return out
 
 
 def ResNet18():
     return ResNet(BasicBlock, [2, 2, 2, 2])
-
-
-# def forward(self, x):
-#     return F.log_softmax(x)
 
 
 def model_summary(model, input_size):
