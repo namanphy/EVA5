@@ -16,7 +16,7 @@ def transformations(augmentation=False, rotation=0.0, randomHorizontalFlip=False
         augmentation_list.append(transforms.RandomHorizontalFlip())
 
     if rotation != 0.0:
-        augmentation_list.append(transforms.RandomRotation((-rotation, rotation), fill=(1,)))
+        augmentation_list.append(transforms.RandomRotation((-rotation, rotation)))
 
     if augmentation:
         transforms_list = transforms_list + augmentation_list
