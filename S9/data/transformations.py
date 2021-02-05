@@ -47,5 +47,5 @@ class Transformations:
 
     def __call__(self, image):
         image = np.image(image).astype(np.uint8)
-        image = self.transform()(image)
+        image = self.transform(image)
         return image
