@@ -20,11 +20,6 @@ class Transformations:
         self.cutout_width = cutout_width
         # self.transform = self.compose()
 
-    # def compose(self):
-    #     """
-    #
-    #     :return:
-    #     """
         transforms_list = [
             A.Normalize(self.mean, self.std, always_apply=True),
             ToTensorV2()
@@ -41,7 +36,7 @@ class Transformations:
             augmentation_list.append(A.Rotate(self.rotation))
 
         if self.train:
-            transforms_list = transforms_list + augmentation_list
+            transforms_list = augmentation_list + transforms_list
 
         self.transform = A.Compose(transforms_list)
 
