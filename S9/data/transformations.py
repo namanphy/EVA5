@@ -46,7 +46,7 @@ class Transformations:
         print(transforms_list)
         return A.Compose(transforms_list)
 
-    # def __call__(self, image):
-    #     image = np.image(image).astype(np.uint8)
-    #     image = self.compose()(image=image)['image']
-    #     return image
+    def __call__(self, image):
+        image = np.array(image)
+        image = self.compose()(image=image)['image']
+        return image
