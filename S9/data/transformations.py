@@ -26,8 +26,8 @@ class Transformations:
     #     :return:
     #     """
         transforms_list = [
-            ToTensorV2(),
             A.Normalize(self.mean, self.std, always_apply=True),
+            ToTensorV2()
         ]
 
         augmentation_list = []
@@ -43,7 +43,6 @@ class Transformations:
         if self.train:
             transforms_list = transforms_list + augmentation_list
 
-        print(transforms_list)
         self.transform = A.Compose(transforms_list)
 
     def __call__(self, image):
