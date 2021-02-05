@@ -18,7 +18,7 @@ class Transformations:
         self.cutout = cutout
         self.cutout_height = cutout_height
         self.cutout_weight = cutout_width
-        self.transform = self.compose()
+        # self.transform = self.compose()
 
     def compose(self):
         """
@@ -47,5 +47,5 @@ class Transformations:
 
     def __call__(self, image):
         image = np.image(image).astype(np.uint8)
-        image = self.transform(image)
+        image = self.compose()(image)['image']
         return image
