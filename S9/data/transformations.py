@@ -17,7 +17,7 @@ class Transformations:
         self.horizontal_flip = horizontal_flip
         self.cutout = cutout
         self.cutout_height = cutout_height
-        self.cutout_weight = cutout_width
+        self.cutout_width = cutout_width
         # self.transform = self.compose()
 
     def compose(self):
@@ -32,7 +32,7 @@ class Transformations:
 
         augmentation_list = []
         if self.cutout > 0:
-            augmentation_list.append(A.Cutout(num_holes=1, max_h_size=self.cutout_height, max_w_size=self.cutout_weight,
+            augmentation_list.append(A.Cutout(num_holes=1, max_h_size=self.cutout_height, max_w_size=self.cutout_width,
                                               fill_value=[255.0*x for x in self.mean], always_apply=True, p=self.cutout))
         if self.horizontal_flip > 0:
             augmentation_list.append(A.HorizontalFlip(p=self.horizontal_flip))
@@ -43,9 +43,10 @@ class Transformations:
         if self.train:
             transforms_list = transforms_list + augmentation_list
 
+        print(transforms_list)
         return A.Compose(transforms_list)
 
-    def __call__(self, image):
-        image = np.image(image).astype(np.uint8)
-        image = self.compose()(image)['image']
-        return image
+    # def __call__(self, image):
+    #     image = np.image(image).astype(np.uint8)
+    #     image = self.compose()(image=image)['image']
+    #     return image
