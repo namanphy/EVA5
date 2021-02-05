@@ -30,10 +30,9 @@ class CIFAR10:
             'rotation': self.rotation,
             'horizontal_flip': self.horizontal_flip,
             'cutout': self.cutout,
-            'cutout_height': self.image_size[1] // 2,
-            'cutout_width': self.image_size[2] // 2
+            'cutout_height': self.image_size[1] // self.cutout_hw_ratio,
+            'cutout_width': self.image_size[2] // self.cutout_hw_ratio
         }
 
         print("Transforms : ", args)
-        transformation_obj = Transformations(**args)
-        return transformation_obj.compose()
+        return Transformations(**args)

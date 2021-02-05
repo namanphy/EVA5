@@ -20,11 +20,11 @@ class Transformations:
         self.cutout_width = cutout_width
         # self.transform = self.compose()
 
-    def compose(self):
-        """
-
-        :return:
-        """
+    # def compose(self):
+    #     """
+    #
+    #     :return:
+    #     """
         transforms_list = [
             ToTensorV2(),
             A.Normalize(self.mean, self.std, always_apply=True),
@@ -44,9 +44,9 @@ class Transformations:
             transforms_list = transforms_list + augmentation_list
 
         print(transforms_list)
-        return A.Compose(transforms_list)
+        self.transform = A.Compose(transforms_list)
 
     def __call__(self, image):
         image = np.array(image)
-        image = self.compose()(image=image)['image']
+        image = self.transform(image=image)['image']
         return image
