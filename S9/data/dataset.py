@@ -1,6 +1,5 @@
 from torchvision import datasets
 from data.transformations import Transformations
-import torch
 import numpy as np
 
 
@@ -31,8 +30,8 @@ class CIFAR10:
             'rotation': self.rotation,
             'horizontal_flip': self.horizontal_flip,
             'cutout': self.cutout,
-            'cutout_height': self.image_size[0] // 2,
-            'cutout_width': self.image_size[1] // 2
+            'cutout_height': self.image_size[1] // 2,
+            'cutout_width': self.image_size[2] // 2
         }
 
         print("Transforms : ", args)
