@@ -99,7 +99,8 @@ def plot_gradcam(image_path, model, model_path, layer, classes=None, class_id=No
     image, original_image = load_images(image_path, **kwargs)
     image = torch.stack(image).to(device)
 
-    model.load_state_dict(torch.load(model_path))
+    if model_path:
+        model.load_state_dict(torch.load(model_path))
     model.to(device)
     model.eval()
 
