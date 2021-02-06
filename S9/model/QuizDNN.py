@@ -30,7 +30,7 @@ class QuizDNN(nn.Module):
         )
 
         self.x3 = nn.Sequential(
-            nn.Conv2d(32, 32, 3, bias=False, padding=1),  # i/p - 32x32
+            nn.Conv2d(32, 64, 3, bias=False, padding=1),  # i/p - 32x32
             nn.BatchNorm2d(32),
             nn.ReLU(),
         )
@@ -40,7 +40,7 @@ class QuizDNN(nn.Module):
         )
 
         self.x5 = nn.Sequential(
-            nn.Conv2d(32, 64, 3, bias=False, padding=1),  # i/p - 16x16
+            nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 16x16
             nn.BatchNorm2d(64),
             nn.ReLU(),
         )
