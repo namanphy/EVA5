@@ -36,3 +36,8 @@ class CIFAR10:
 
         print("Transforms : ", args)
         return Transformations(**args)
+
+    @property
+    def classes(self):
+        return ('airplane',	'automobile', 'bird', 'cat', 'deer', 'dog', 'frog',
+                'horse', 'ship', 'truck')
