@@ -93,7 +93,7 @@ class GradCAM:
             handle.remove()
 
 
-def plot_gradcam(image_path, model, model_path, layer, classes=None, class_id=None, **kwargs):
+def plot_gradcam(image_path, model, layer, model_path=None, classes=None, class_id=None, **kwargs):
     device = enable_cuda()
 
     image, original_image = load_images(image_path, **kwargs)
