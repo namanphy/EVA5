@@ -2,7 +2,6 @@ import sys
 import subprocess
 import torch.nn as nn
 import torch.nn.functional as F
-from datetime import datetime
 try:
     from torchsummary import summary
 except ImportError:
