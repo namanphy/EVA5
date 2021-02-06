@@ -1,6 +1,7 @@
 import torch
 import matplotlib.pyplot as plt
 from cuda import enable_cuda
+import cv2
 
 
 def set_seed(value=123):
@@ -85,7 +86,7 @@ def plot_results(data, classes=None):
             row_count += 1
         axs[row_count][idx % 5].axis('off')
         axs[row_count][idx % 5].set_title(f'Label: {label}\nPrediction: {prediction}')
-        axs[row_count][idx % 5].imshow(result['image'][0])
+        axs[row_count][idx % 5].imshow(cv2.cvtColor(result['image'][0], cv2.COLOR_BGR2RGB))
 
     plt.show()
     fig.savefig(f'incorrect_predictions.png', bbox_inches='tight')
