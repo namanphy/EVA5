@@ -31,7 +31,7 @@ class QuizDNN(nn.Module):
 
         self.x3 = nn.Sequential(
             nn.Conv2d(32, 64, 3, bias=False, padding=1),  # i/p - 32x32
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
