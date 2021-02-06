@@ -1,5 +1,7 @@
 import torch
 import torch.nn.functional as F
+from gradcam.utils import load_images, save_gradcam
+from cuda import enable_cuda
 
 
 class GradCAM:
@@ -89,3 +91,31 @@ class GradCAM:
         """
         for handle in self.handlers:
             handle.remove()
+
+
+def plot_gradcam(image_path, model, model_path, layer, classes=None, class_name=None, **kwargs):
+    device = enable_cuda()
+
+    image, original_image = load_images(image_path, **kwargs)
+    image = torch.stack(image).to(device)
+
+    model.load_state_dict(torch.load(model_path))
+    model.to(device)
+    model.eval()
+
+    gcam = GradCAM(model=model, candidate_layers=layer)
+    probs, ids = gcam.forward(image, original_image[0])
+
+    gcam.backward(ids=ids[:, [0]])
+    region = gcam.generate(target_layer=layer)
+
+    print(f"\t #GRADCAM: {classes[ids[0, 0]] if classes else ids[0, 0]} ({probs[0, 0]})")
+
+    # Grad-CAM save
+    save_gradcam(
+        filename=f"gradcam-{model.__class__.__name__}-{layer}-{classes[ids[0, 0]] if classes else ids[0, 0]}.png",
+        gcam=region[0, 0],
+        raw_image=original_image[0]
+    )
+
+    gcam.remove_hook()
