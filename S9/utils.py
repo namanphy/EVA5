@@ -67,7 +67,7 @@ def identify_misclassification(model, model_path, test_loader, limit=25):
     return incorrect_samples
 
 
-def plot_results(data):
+def plot_results(data, classes=None):
     # Initialize plot
     row_count = -1
     fig, axs = plt.subplots(5, 5, figsize=(8, 8))
@@ -77,15 +77,15 @@ def plot_results(data):
         if idx > 24:
             break
 
-        label = result['label'].item()
-        prediction = result['prediction'].item()
+        label = classes[result['label'].item()] if classes else result['label'].item()
+        prediction = classes[result['prediction'].item()] if classes else result['prediction'].item()
 
         # Plot image
         if idx % 5 == 0:
             row_count += 1
         axs[row_count][idx % 5].axis('off')
         axs[row_count][idx % 5].set_title(f'Label: {label}\nPrediction: {prediction}')
-        axs[row_count][idx % 5].imshow(result['image'][0], cmap='gray_r')
+        axs[row_count][idx % 5].imshow(result['image'][0])
 
     plt.show()
     fig.savefig(f'incorrect_predictions.png', bbox_inches='tight')
