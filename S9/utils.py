@@ -87,7 +87,7 @@ def plot_results(data, classes=None):
             row_count += 1
         axs[row_count][idx % 5].axis('off')
         axs[row_count][idx % 5].set_title(f'Label: {label}\nPrediction: {prediction}')
-        axs[row_count][idx % 5].imshow(np.transpose(np.array(result['image'][0]), (1, 2, 0)))
+        axs[row_count][idx % 5].imshow(np.transpose(result['image'], (1, 2, 0)))
 
     plt.show()
     fig.savefig(f'incorrect_predictions.png', bbox_inches='tight')
