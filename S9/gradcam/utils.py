@@ -5,6 +5,7 @@ from torchvision import transforms
 
 
 def save_gradcam(filename, gcam, raw_image):
+    print(f"\t Generating Image : {filename}")
     gcam = gcam.cpu().numpy()
     cmap = cm.jet_r(gcam)[..., :3] * 255.0
     gcam = (cmap.astype(np.float) + raw_image.astype(np.float)) / 2
