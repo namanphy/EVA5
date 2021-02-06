@@ -33,15 +33,15 @@ Here, We have
 
 ### Results
 
-##### Accuracy curve
+#### Accuracy curve
 ![accuracy](https://github.com/namanphy/EVA5/blob/main/S9/images/accuracy.png)
 
-##### Loss curve
+#### Loss curve
 ![accuracy](https://github.com/namanphy/EVA5/blob/main/S9/images/loss.png)
 
 #### Misclassified Images
 Showing 25 random misclassified images.
-![misclassified images](https://github.com/namanphy/EVA5/blob/main/S9/images/misclassified.png)
+![misclassified images](https://github.com/namanphy/EVA5/blob/main/S9/images/incorrect_predictions.png)
 
 ### Gradcam
 
@@ -51,13 +51,17 @@ before the prediction.
 
 This is the normal image for an aeroplane.
 
+![airplane](https://github.com/namanphy/EVA5/blob/main/S9/images/airplane.png)
+
+
 
 The image after gradcam is applied. It shows what the model is seeing 
 at the last layer before the prediction. Red areas show higher activation 
 and vice-versa.
+
 ![grad airplane](https://github.com/namanphy/EVA5/blob/main/S9/images/gradcam-ResNet-layer4.1.conv2-airplane.png)
 
 
-##### Quick Run :Go to Google Colab
+#### Quick Run: Go to Google Colab
 Select Python 3 as the runtime type and GPU as the hardware accelerator and run the notebook - `cifar10_resnet18_main.ipynb`.
 Make sure to install Pytorch.
