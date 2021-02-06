@@ -93,7 +93,7 @@ class GradCAM:
             handle.remove()
 
 
-def plot_gradcam(image_path, model, model_path, layer, classes=None, class_name=None, **kwargs):
+def plot_gradcam(image_path, model, model_path, layer, classes=None, class_id=None, **kwargs):
     device = enable_cuda()
 
     image, original_image = load_images(image_path, **kwargs)
@@ -106,10 +106,18 @@ def plot_gradcam(image_path, model, model_path, layer, classes=None, class_name=
     gcam = GradCAM(model=model, candidate_layers=layer)
     probs, ids = gcam.forward(image, original_image[0])
 
+    if class_id and classes:
+        assert type(class_id) is int, "class id value must be an integer."
+        if class_id in range(len(classes)):
+            ids = torch.tensor([[class_id]], dtype=torch.int64).to(device)
+            probs = torch.tensor([[probs[0, class_id]]])
+        else:
+            raise ValueError('class id is not present in classes.')
+
     gcam.backward(ids=ids[:, [0]])
     region = gcam.generate(target_layer=layer)
 
-    print(f"\t #GRADCAM: {classes[ids[0, 0]] if classes else ids[0, 0]} ({probs[0, 0]})")
+    print(f" #GRADCAM: {classes[ids[0, 0]] if classes else ids[0, 0]} (prob : {probs[0, 0]})")
 
     # Grad-CAM save
     save_gradcam(
