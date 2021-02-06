@@ -18,19 +18,19 @@ class QuizDNN(nn.Module):
         self.layer1 = "Current Date/Time: ", datetime.now()
 
         self.x1 = nn.Sequential(
-            nn.Conv2d(3, 32, 3, bias=False, padding=1),  # i/p - 32x32
+            nn.Conv2d(3, 64, 3, bias=False, padding=1),  # i/p - 32x32
             nn.BatchNorm2d(32),
             nn.ReLU(),
         )
 
         self.x2 = nn.Sequential(
-            nn.Conv2d(32, 32, 3, bias=False, padding=1),  # i/p - 32x32
+            nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 32x32
             nn.BatchNorm2d(32),
             nn.ReLU(),
         )
 
         self.x3 = nn.Sequential(
-            nn.Conv2d(32, 64, 3, bias=False, padding=1),  # i/p - 32x32
+            nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 32x32
             nn.BatchNorm2d(64),
             nn.ReLU(),
         )
