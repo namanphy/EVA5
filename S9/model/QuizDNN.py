@@ -15,8 +15,6 @@ class QuizDNN(nn.Module):
     def __init__(self):
         super(QuizDNN, self).__init__()
 
-        self.layer1 = "Current Date/Time: ", datetime.now()
-
         self.x1 = nn.Sequential(
             nn.Conv2d(3, 64, 3, bias=False, padding=1),  # i/p - 32x32
             nn.BatchNorm2d(64),
@@ -88,7 +86,6 @@ class QuizDNN(nn.Module):
         )
 
     def forward(self, x):
-        print(self.layer1)
 
         x1 = self.x1(x)
         x2 = self.x2(x1)
