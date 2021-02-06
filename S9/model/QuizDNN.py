@@ -19,13 +19,13 @@ class QuizDNN(nn.Module):
 
         self.x1 = nn.Sequential(
             nn.Conv2d(3, 64, 3, bias=False, padding=1),  # i/p - 32x32
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
         self.x2 = nn.Sequential(
             nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 32x32
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
