@@ -32,6 +32,7 @@ class GradCAM:
                 self.handlers.append(module.register_forward_hook(save_fmaps(name)))
                 self.handlers.append(module.register_backward_hook(save_grads(name)))
 
+    # One hot vector to give as gradient while backpropagating on logits
     def _encode_one_hot(self, ids):
         one_hot = torch.zeros_like(self.logits).to(self.device)
         one_hot.scatter_(1, ids, 1.0)
@@ -46,18 +47,18 @@ class GradCAM:
     def forward(self, image, raw_image):
         self.image_shape = raw_image.shape[:-1]
         self.logits = self.model(image)
-        print(self.logits)
+        # print(self.logits)
         self.probs = F.softmax(self.logits, dim=1)
-        print(self.probs)
+        # print(self.probs)
         return self.probs.sort(dim=1, descending=True)  # ordered results
 
     def backward(self, ids):
         """
-        Class-specific backpropagation
+        Class-specific backpropagation pass
         """
-        print('IDS : ', ids)
+        # print('IDS : ', ids)
         one_hot = self._encode_one_hot(ids)
-        print(one_hot)
+        # print(one_hot)
         self.model.zero_grad()
         self.logits.backward(gradient=one_hot, retain_graph=True)
 
