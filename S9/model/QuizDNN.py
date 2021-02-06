@@ -12,13 +12,19 @@ finally:
 
 
 class QuizDNN(nn.Module):
-    def __init__(self, dropout_rate=0.02):
+    def __init__(self):
         super(QuizDNN, self).__init__()
 
         self.layer1 = "Current Date/Time: ", datetime.now()
 
-        self.x2 = nn.Sequential(
+        self.x1 = nn.Sequential(
             nn.Conv2d(3, 32, 3, bias=False, padding=1),  # i/p - 32x32
+            nn.BatchNorm2d(32),
+            nn.ReLU(),
+        )
+
+        self.x2 = nn.Sequential(
+            nn.Conv2d(32, 32, 3, bias=False, padding=1),  # i/p - 32x32
             nn.BatchNorm2d(32),
             nn.ReLU(),
         )
@@ -35,19 +41,19 @@ class QuizDNN(nn.Module):
 
         self.x5 = nn.Sequential(
             nn.Conv2d(32, 64, 3, bias=False, padding=1),  # i/p - 16x16
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
         self.x6 = nn.Sequential(
             nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 16x16
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
         self.x7 = nn.Sequential(
             nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 16x16
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
@@ -57,19 +63,19 @@ class QuizDNN(nn.Module):
 
         self.x9 = nn.Sequential(
             nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 8x8
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
         self.x10 = nn.Sequential(
             nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 8x8
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
         self.x11 = nn.Sequential(
             nn.Conv2d(64, 64, 3, bias=False, padding=1),  # i/p - 8x8
-            nn.BatchNorm2d(32),
+            nn.BatchNorm2d(64),
             nn.ReLU(),
         )
 
@@ -84,7 +90,7 @@ class QuizDNN(nn.Module):
     def forward(self, x):
         print(self.layer1)
 
-        x1 = x
+        x1 = self.x1(x)
         x2 = self.x2(x1)
         x3 = self.x3(x1 + x2)
         x4 = self.x4(x1 + x2 + x3)
