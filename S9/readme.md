@@ -51,7 +51,7 @@ before the prediction.
 
 This is the normal image for an aeroplane.
 
-![airplane](https://github.com/namanphy/EVA5/blob/main/S9/images/airplane.png)
+![airplane](https://github.com/namanphy/EVA5/blob/main/S9/images/airplane.jpg)
 
 
 
@@ -63,5 +63,5 @@ and vice-versa.
 
 
 #### Quick Run: Go to Google Colab
-Select Python 3 as the runtime type and GPU as the hardware accelerator and run the notebook - `cifar10_resnet18_main.ipynb`.
+Select Python 3 as the runtime type and GPU as the hardware accelerator and run the notebook - `main_S9.ipynb`.
 Make sure to install Pytorch.
