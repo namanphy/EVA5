@@ -72,7 +72,8 @@ class GradCAM:
 
         gcam = torch.mul(fmaps, weights).sum(dim=1, keepdim=True)
         gcam = F.relu(gcam)
-        # print(gcam.shape)
+        print('gcam ', gcam.shape) #temp
+        print('raw image new ', self.image_shape) #temp
         gcam = F.interpolate(
             gcam, self.image_shape, mode="bilinear", align_corners=False
         )

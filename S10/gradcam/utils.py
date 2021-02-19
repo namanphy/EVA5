@@ -31,6 +31,7 @@ def _preprocess(image_path, mean=None, std=None, input_size=None):
         transforms.Normalize(mean, std),
         ]
     )(raw_image[..., ::-1].copy())
+    print('raw_image ', raw_image.shape) # temp
     return image, original_image
 
 
