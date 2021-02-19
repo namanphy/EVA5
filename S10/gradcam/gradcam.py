@@ -93,10 +93,15 @@ class GradCAM:
             handle.remove()
 
 
-def plot_gradcam(image_path, model, layer, model_path=None, classes=None, class_id=None, **kwargs):
+def plot_gradcam(image, model, layer, model_path=None, classes=None, class_id=None, **kwargs):
+    """
+    @param image: image object
+    @param image_path:
+    """
+    assert type(image) in [str, torch.Tensor], '`image` param can be either `str` if path of image is given or `torch.Tensor` for processed image'
     device = enable_cuda()
 
-    image, original_image = load_images(image_path, **kwargs)
+    image, original_image = load_images(image, **kwargs)
     image = torch.stack(image).to(device)
 
     if model_path:

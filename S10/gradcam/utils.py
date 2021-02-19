@@ -30,7 +30,7 @@ def _preprocess(image_path, mean=None, std=None, input_size=None):
     return image, original_image
 
 
-def load_images(image_path, **kwargs):
+def load_images(image, **kwargs):
 
     mean = kwargs['mean'] if 'mean' in kwargs else None
     std = kwargs['std'] if 'std' in kwargs else None
@@ -38,7 +38,7 @@ def load_images(image_path, **kwargs):
 
     images = []
     raw_images = []
-    image, raw_image = _preprocess(image_path, mean, std, input_size)
+    image, raw_image = _preprocess(image, mean, std, input_size) if type(image) is str else (image, image)
     images.append(image)
     raw_images.append(raw_image)
     return images, raw_images
