@@ -42,7 +42,8 @@ def load_images(image, **kwargs):
 
     images = []
     raw_images = []
-    image, raw_image = _preprocess(image, mean, std, input_size) if type(image) is str else (image, image.numpy()[::-1])
+    image, raw_image = _preprocess(image, mean, std, input_size) if type(image) is str else \
+        (image, image.numpy().reshape(image.shape[1], image.shape[2], -1))
     images.append(image)
     raw_images.append(raw_image)
     return images, raw_images
