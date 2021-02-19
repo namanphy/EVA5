@@ -2,6 +2,7 @@ import torch
 import torch.nn.functional as F
 from gradcam.utils import load_images, save_gradcam
 from cuda import enable_cuda
+import matplotlib.cm as cm
 
 
 class GradCAM:
@@ -93,7 +94,7 @@ class GradCAM:
             handle.remove()
 
 
-def plot_gradcam(image, model, layer, model_path=None, classes=None, class_id=None, **kwargs):
+def plot_gradcam(image, model, layer, model_path=None, classes=None, class_id=None, save_as_file=False, **kwargs):
     """
     @param image: image object
     @param image_path:
@@ -126,10 +127,13 @@ def plot_gradcam(image, model, layer, model_path=None, classes=None, class_id=No
     print(f" #GRADCAM: {classes[ids[0, 0]] if classes else ids[0, 0]} (prob : {probs[0, 0]})")
 
     # Grad-CAM save
-    save_gradcam(
+    out = save_gradcam(
         filename=f"gradcam-{model.__class__.__name__}-{layer}-{classes[ids[0, 0]] if classes else ids[0, 0]}.png",
         gcam=region[0, 0],
-        raw_image=original_image[0]
+        raw_image=original_image[0],
+        save_as_file=save_as_file
     )
 
     gcam.remove_hook()
+
+    return out

@@ -4,12 +4,16 @@ import numpy as np
 from torchvision import transforms
 
 
-def save_gradcam(filename, gcam, raw_image):
+def save_gradcam(filename, gcam, raw_image, save_as_file=False):
     print(f"\t Generating Image : {filename}")
     gcam = gcam.cpu().numpy()
     cmap = cm.jet_r(gcam)[..., :3] * 255.0
     gcam = (cmap.astype(np.float) + raw_image.astype(np.float)) / 2
-    cv2.imwrite(filename, np.uint8(gcam))
+
+    if save_as_file:
+        cv2.imwrite(filename, np.uint8(gcam))
+        return None
+    return gcam
 
 
 def _preprocess(image_path, mean=None, std=None, input_size=None):
