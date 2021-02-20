@@ -38,12 +38,17 @@ Gradcam
 ### Results
 
 #### Accuracy curve
+Following is the accuracy curve during training and testing 
 ![accuracy](https://github.com/namanphy/EVA5/blob/main/S10/images/accuracy.png)
+
+--------
 
 #### Misclassified Images
 Showing 25 random misclassified images.
 
 ![misclassified images](https://github.com/namanphy/EVA5/blob/main/S10/images/incorrect_predictions.png)
+
+---------
 
 #### Gradcam for misclassified images
 Here are some of the misclassified images along 
@@ -52,5 +57,5 @@ Here are some of the misclassified images along
 
 
 #### Quick Run: Go to Google Colab
-Select Python 3 as the runtime type and GPU as the hardware accelerator and run the notebook - `main_S9.ipynb`.
+Select Python 3 as the runtime type and GPU as the hardware accelerator and run the notebook - `main_S10.ipynb`.
 Make sure to install Pytorch.
