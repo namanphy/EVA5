@@ -91,3 +91,38 @@ def plot_results(data, classes=None):
 
     plt.show()
     fig.savefig(f'incorrect_predictions.png', bbox_inches='tight')
+
+
+def class_wise_accuracy(model, model_path, test_loader, classes):
+    incorrect_map = {}
+    total_map = {}
+
+    for i in range(len(classes)):
+        incorrect_map[i] = 0
+        total_map[i] = 0
+
+    # identifying device
+    device = enable_cuda()
+
+    # Load the model
+    model.load_state_dict(torch.load(model_path))
+    model.to(device)
+    model.eval()
+
+    # Identify misclassified images
+    with torch.no_grad():
+        for data, target in test_loader:
+            data, target = data.to(device), target.to(device)
+            output = model(data)
+
+            pred = output.argmax(dim=1, keepdim=True)  # get the index of the max log-probability
+            result = pred.eq(target.view_as(pred))
+
+            target_list = list(target.view_as(pred))
+
+            for i in range(test_loader.batch_size):
+                total_map[target_list[i]] += 1
+                if not list(result)[i]:
+                    incorrect_map[target_list[i]] += 1
+
+    return {classes[x]: (total_map[x] - incorrect_map[x])/total_map[x] for x in total_map}
