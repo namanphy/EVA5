@@ -76,9 +76,9 @@ class Model(nn.Module):
         out = F.relu(self.layer2(out))
         out = self.layer3(out)
         out = self.mp4(out)
-        out = out.view(out.size(0), -1)
-        out = self.linear(out)  # Using linear instead of F.log_softmax(x).
-        out = F.log_softmax(out)
+        # out = out.view(out.size(0), -1)
+        # out = self.linear(out)  # Using linear instead of F.log_softmax(x).
+        # out = F.log_softmax(out)
         return out
 
 
