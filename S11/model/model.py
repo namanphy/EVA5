@@ -15,7 +15,7 @@ class BasicBlock(nn.Module):
     def __init__(self, in_planes, planes):
         super(BasicBlock, self).__init__()
         self.conv1 = nn.Conv2d(in_planes, planes, kernel_size=3, stride=1, padding=1, bias=False)
-        self.mp1 = nn.MaxPool2d(3, padding=2)
+        self.mp1 = nn.MaxPool2d(2, padding=1, stride=1)
         self.bn1 = nn.BatchNorm2d(planes)
 
         self.conv2 = nn.Conv2d(planes, planes, kernel_size=3, stride=1, padding=1, bias=False)
@@ -53,12 +53,12 @@ class Model(nn.Module):
 
         self.layer2 = nn.Sequential(
             nn.Conv2d(3, 256, kernel_size=3, stride=1, padding=1, bias=False),
-            nn.MaxPool2d(3, padding=2),
+            nn.MaxPool2d(2, padding=1, stride=1),
             nn.BatchNorm2d(256))
 
         self.layer3 = BasicBlock(256, 512)
 
-        self.mp4 = nn.MaxPool2d(4, padding=2)
+        self.mp4 = nn.MaxPool2d(4, padding=1)
 
         self.linear = nn.Linear(512, num_classes)
 
