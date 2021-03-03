@@ -52,7 +52,7 @@ class Model(nn.Module):
         self.layer1 = BasicBlock(64, 128)
 
         self.layer2 = nn.Sequential(
-            nn.Conv2d(3, 256, kernel_size=3, stride=1, padding=1, bias=False),
+            nn.Conv2d(128, 256, kernel_size=3, stride=1, padding=1, bias=False),
             nn.MaxPool2d(2, padding=1, stride=1),
             nn.BatchNorm2d(256))
 
