@@ -1,7 +1,7 @@
 import torch
 from tqdm import tqdm
 from cuda import enable_cuda
-from model.loss.loss import calculate_l1_loss
+from model.loss import calculate_l1_loss
 
 
 class Trainer:
