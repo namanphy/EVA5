@@ -10,5 +10,5 @@ class BaseModel(nn.Module):
     def forward(self, x):
         raise NotImplementedError
 
-    def summary(self, input_size):
-        print(summary(self, input_size=input_size))
+    def summary(self, input_size, device):
+        print(summary(self.to(device), input_size=input_size))
