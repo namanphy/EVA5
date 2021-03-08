@@ -77,12 +77,13 @@ class Trainer:
         if self.do_validation:
             val_log = self._valid_epoch()
             log.update(val_log)
-            monitor_value = val_log['test_loss'] if self.scheduler_monitor_value == 'loss' else val_log['test_acc']
-        #
-        # if self.lr_scheduler is not None:
-        #     if not self.do_validation:
-        #         self.scheduler_monitor_value = None
-        #     self.lr_scheduler.step(monitor_value) if self.scheduler_monitor_value else self.lr_scheduler.step()
+            monitor_value = val_log['test_loss']
+
+        if self.lr_schedulers['step_lr']:
+            self.lr_schedulers['step_lr'].step()
+
+        if self.lr_schedulers['plateau_lr'] and self.do_validation:
+            self.lr_schedulers['plateau_lr'].step(monitor_value)
 
         return log
 
