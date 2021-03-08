@@ -5,10 +5,8 @@ from model.loss import calculate_l1_loss
 
 
 class Trainer:
-    def __init__(self, model, optimizer, criterion, data_loader, valid_data_loader=None, lr_scheduler=None,
-                 scheduler_monitor_value=None, l1_loss=False, l1_factor=0.001):
-        if scheduler_monitor_value:
-            assert scheduler_monitor_value in [None, 'loss', 'accuracy'], 'scheduler_monitor_value can be either `loss` or `accuracy`'
+    def __init__(self, model, optimizer, criterion, data_loader, valid_data_loader=None, callbacks=None,
+                 l1_loss=False, l1_factor=0.001):
 
         self.device = enable_cuda()
         self.model = model.to(self.device)
@@ -16,13 +14,27 @@ class Trainer:
         self.train_loader, self.test_loader = data_loader, valid_data_loader
         self.do_validation = True if self.test_loader else False
 
-        self.lr_scheduler = lr_scheduler
-        self.scheduler_monitor_value = scheduler_monitor_value
-
         self.l1_loss = l1_loss
         self.l1_factor = l1_factor
         self.optimizer = optimizer
         self.criterion = criterion
+
+        self.lr_schedulers = {
+            'step_lr': None,
+            'plateau_lr': None,
+            'one_cycle_lr': None
+        }
+        if callbacks is not None:
+            self._make_schedulers(callbacks)
+
+    def _make_schedulers(self, callbacks):
+        for callback in callbacks:
+            if isinstance(callback, torch.optim.lr_scheduler.StepLR):
+                self.lr_schedulers['step_lr'] = callback
+            elif isinstance(callback, torch.optim.lr_scheduler.ReduceLROnPlateau):
+                self.lr_schedulers['plateau_lr'] = callback
+            elif isinstance(callback, torch.optim.lr_scheduler.OneCycleLR):
+                self.lr_schedulers['one_cycle_lr'] = callback
 
     def train(self, epochs):
         results = {'train_loss': [], 'test_loss': [], 'train_acc': [], 'test_acc': [], }
@@ -59,15 +71,18 @@ class Trainer:
                 desc=f'Loss={loss.item()} Batch_id={batch_idx} Accuracy={100 * correct / processed:0.2f}')
             log['train_acc'] = 100 * correct / processed
 
+        if self.lr_schedulers['one_cycle_lr']:
+            self.lr_schedulers['one_cycle_lr'].step()
+
         if self.do_validation:
             val_log = self._valid_epoch()
             log.update(val_log)
             monitor_value = val_log['test_loss'] if self.scheduler_monitor_value == 'loss' else val_log['test_acc']
-
-        if self.lr_scheduler is not None:
-            if not self.do_validation:
-                self.scheduler_monitor_value = None
-            self.lr_scheduler.step(monitor_value) if self.scheduler_monitor_value else self.lr_scheduler.step()
+        #
+        # if self.lr_scheduler is not None:
+        #     if not self.do_validation:
+        #         self.scheduler_monitor_value = None
+        #     self.lr_scheduler.step(monitor_value) if self.scheduler_monitor_value else self.lr_scheduler.step()
 
         return log
 
