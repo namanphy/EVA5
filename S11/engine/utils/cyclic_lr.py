@@ -27,7 +27,7 @@ class CyclicLR:
 
     def _plot(self):
 
-        fig = plt.figure(figsize=(10, 4))
+        fig = plt.figure(figsize=(10, 3.5))
 
         plt.title('Cyclic LR Triangular Schedule')
         plt.xlabel('Iterations')
@@ -38,5 +38,6 @@ class CyclicLR:
 
         plt.plot(self.lrs)
 
+        plt.margins(y=0.16)
         plt.tight_layout()
         plt.savefig('clr_plot.png')
