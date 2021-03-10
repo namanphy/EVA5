@@ -23,7 +23,6 @@ class CyclicLR:
             self.lrs.append(lr)
         if plot:
             self._plot()
-        return self.lrs
 
     def _plot(self):
 
