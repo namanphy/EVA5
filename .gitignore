@@ -5,5 +5,15 @@ S7/.idea/
 S8/.idea/
 S9/.idea/
 
+S11/__pycache__/
+S11/data/__pycache__/
+S11/gradcam/__pycache__/
+S11/model/__pycache__/
+S11/model/loss/__pycache__/
+S11/model/optimizer/_pycache__/
+S11/engine/__pycache__/
+S11/engine/lr/__pycache__/
+
+
 # Jupyter checkpoints
 S4/.ipynb_checkpoints
