@@ -138,7 +138,7 @@ class TinyImageNet(Dataset):
     @property
     def classes(self):
         all_classes = []
-        for i, line in enumerate(open(self.data_root + 'words.txt', 'r')):
+        for i, line in enumerate(open(os.path.join(self.data_root + 'words.txt'), 'r')):
             n_id, word = line.split('\t')[:2]
             all_classes.append(word.replace('\n', ''))
         return all_classes
