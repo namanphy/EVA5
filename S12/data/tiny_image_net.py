@@ -137,8 +137,12 @@ class TinyImageNet(Dataset):
 
     @property
     def classes(self):
-        all_classes = []
+        id_dict = self._get_id_dictionary()
+        all_classes = {}
+        result = {}
         for i, line in enumerate(open(os.path.join(self.data_root, 'words.txt'), 'r')):
             n_id, word = line.split('\t')[:2]
-            all_classes.append(word.replace('\n', ''))
-        return all_classes
+            all_classes[n_id] = word
+        for key, value in id_dict.items():
+            result[value] = (key, all_classes[key])
+        return result
