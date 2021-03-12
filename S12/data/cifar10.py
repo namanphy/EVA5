@@ -20,7 +20,7 @@ class CIFAR10:
         self.sample_data = self.download()
         self.image_size = np.transpose(self.sample_data.data[0], (2, 0, 1)).shape
 
-    def download(self, loc= '../data', train=True, apply_transform=False):
+    def download(self, loc='../data', train=True, apply_transform=False):
         if apply_transform:
             self.transform = self._transform(train=train)
         return datasets.CIFAR10(loc, train=train, download=True, transform=self.transform)
