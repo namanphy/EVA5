@@ -1,30 +1,34 @@
 # Pycharm files
+S12/.idea/
 S11/.idea/
 S10/.idea/
 S7/.idea/
 S8/.idea/
 S9/.idea/
 
+
+# Pycaches
 S11/__pycache__/
 S11/data/__pycache__/
 S11/gradcam/__pycache__/
 S11/model/__pycache__/
 S11/model/loss/__pycache__/
-S11/model/optimizer/_pycache__/
+S11/model/optimizer/__pycache__/
 S11/engine/__pycache__/
 S11/engine/lr/__pycache__/
-S11/notebooks/
+
 
 S12/__pycache__/
 S12/data/__pycache__/
 S12/gradcam/__pycache__/
 S12/model/__pycache__/
 S12/model/loss/__pycache__/
-S12/model/optimizer/_pycache__/
+S12/model/optimizer/__pycache__/
 S12/engine/__pycache__/
 S12/engine/lr/__pycache__/
-S12/notebooks/
 
 
-# Jupyter checkpoints
+# Jupyter checkpoints and notebooks
 S4/.ipynb_checkpoints
+S11/notebooks/
+S12/notebooks/
