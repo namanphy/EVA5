@@ -18,6 +18,7 @@ class TinyImageNet(Dataset):
             self.data_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.cache')
         if not os.path.exists(self.data_root):
             os.makedirs(self.data_root)
+        self.data_root = os.path.join(self.data_root, 'TinyImageNetData')
         self._download()
         self.train_test_split = train_test_split
 
