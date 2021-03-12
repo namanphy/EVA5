@@ -24,7 +24,7 @@ class TinyImageNet(Dataset):
         self._validate_inputs()
 
         self.train = train
-        self.transform = apply_transform
+        self.apply_transform = apply_transform
 
         self.data, self.targets = self._init_dataset()
 
@@ -39,7 +39,9 @@ class TinyImageNet(Dataset):
         self.cutout = cutout
         self.cutout_hw_ratio = cutout_hw_ratio
 
+        # Image size and transformation object
         self.image_size = np.transpose(self.data[0], (2, 0, 1)).shape
+        self.transform = self._transform(self.train)
 
         self._image_indices = np.arange(len(self.targets))
         np.random.seed(random_seed)
@@ -55,8 +57,8 @@ class TinyImageNet(Dataset):
         img_index = self._image_indices[idx]
 
         img_data = self.data[img_index]
-        if self.transform:
-            img_data = self._transform(self.train)(img_data)
+        if self.apply_transform:
+            img_data = self.transform(img_data)
         return img_data, self.targets[img_index]
 
     def _validate_inputs(self):
