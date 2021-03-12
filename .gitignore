@@ -13,6 +13,17 @@ S11/model/loss/__pycache__/
 S11/model/optimizer/_pycache__/
 S11/engine/__pycache__/
 S11/engine/lr/__pycache__/
+S11/notebooks/
+
+S12/__pycache__/
+S12/data/__pycache__/
+S12/gradcam/__pycache__/
+S12/model/__pycache__/
+S12/model/loss/__pycache__/
+S12/model/optimizer/_pycache__/
+S12/engine/__pycache__/
+S12/engine/lr/__pycache__/
+S12/notebooks/
 
 
 # Jupyter checkpoints
