@@ -87,35 +87,27 @@ class TinyImageNet(Dataset):
         for key, value in id_dict.items():
             data += [imageio.imread(os.path.join(self.data_root, 'train', str(key), 'images', f'{key}_{i}.JPEG'),
                                     pilmode='RGB') for i in range(500)]
-            labels_ = np.array([[0] * 200] * 500)
-            labels_[:, value] = 1
-            labels += labels_.tolist()
+            labels += [value for i in range(500)]
 
         for line in open(os.path.join(self.data_root, 'val', 'val_annotations.txt')):
             img_name, class_id = line.split('\t')[:2]
             data.append(imageio.imread(os.path.join(self.data_root, 'val', 'images', img_name), pilmode='RGB'))
-            labels_ = np.array([[0] * 200])
-            labels_[0, id_dict[class_id]] = 1
-            labels += labels_.tolist()
+            labels.append(id_dict[class_id])
 
         print('finished loading data, in {} seconds'.format(time.time() - t))
         return data, labels
 
-    def _download(self):
-        if not os.path.exists(self.data_root):
-            print('Downloading dataset...')
-            r = requests.get('http://cs231n.stanford.edu/tiny-imagenet-200.zip', stream=True)
-            zf = zipfile.ZipFile(BytesIO(r.content))
-            zf.extractall(os.path.dirname(self.data_root))
-            zf.close()
-
-            os.rename(
-                os.path.join(os.path.dirname(self.data_root), 'tiny-imagenet-200'),
-                self.data_root
-            )
-            print('Done.')
-        else:
-            print('Files already present.')
+    @property
+    def classes(self):
+        id_dict = self._get_id_dictionary()
+        all_classes = {}
+        result = []
+        for i, line in enumerate(open(os.path.join(self.data_root, 'words.txt'), 'r')):
+            n_id, word = line.split('\t')[:2]
+            all_classes[n_id] = word.replace('\n', '')
+        for key, value in id_dict.items():
+            result.append(all_classes[key])
+        return result
 
     def _transform(self, train=True):
         args = {
@@ -135,14 +127,18 @@ class TinyImageNet(Dataset):
         print("Transforms : ", args)
         return Transformations(**args)
 
-    @property
-    def classes(self):
-        id_dict = self._get_id_dictionary()
-        all_classes = {}
-        result = []
-        for i, line in enumerate(open(os.path.join(self.data_root, 'words.txt'), 'r')):
-            n_id, word = line.split('\t')[:2]
-            all_classes[n_id] = word
-        for key, value in id_dict.items():
-            result.append(all_classes[key])
-        return result
+    def _download(self):
+        if not os.path.exists(self.data_root):
+            print('Downloading dataset...')
+            r = requests.get('http://cs231n.stanford.edu/tiny-imagenet-200.zip', stream=True)
+            zf = zipfile.ZipFile(BytesIO(r.content))
+            zf.extractall(os.path.dirname(self.data_root))
+            zf.close()
+
+            os.rename(
+                os.path.join(os.path.dirname(self.data_root), 'tiny-imagenet-200'),
+                self.data_root
+            )
+            print('Done.')
+        else:
+            print('Files already present.')
