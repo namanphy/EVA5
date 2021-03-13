@@ -61,5 +61,6 @@ cluster number 4, the curve becomes almost linear.
 
 
 ## Quick Run: Go to Google Colab
-Select Python 3 as the runtime type and GPU as the hardware accelerator and run the notebook - `main_S10.ipynb`.
+Select Python 3 as the runtime type and GPU as the hardware accelerator and run the 
+notebook - `main_S12.ipynb`.
 Make sure to install Pytorch.
