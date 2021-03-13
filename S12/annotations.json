@@ -1,0 +1,5722 @@
+{
+    "61a264add5dfeeb70530798ebbb8df84.jpg36357": {
+        "filename": "61a264add5dfeeb70530798ebbb8df84.jpg",
+        "size": 36357,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 132,
+                    "y": 156,
+                    "width": 281,
+                    "height": 427
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "99d5cbed83a1.jpg110580": {
+        "filename": "99d5cbed83a1.jpg",
+        "size": 110580,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 351,
+                    "y": 309,
+                    "width": 100,
+                    "height": 138
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 455,
+                    "y": 307,
+                    "width": 57,
+                    "height": 93
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 692,
+                    "y": 285,
+                    "width": 48,
+                    "height": 90
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 930,
+                    "y": 281,
+                    "width": 66,
+                    "height": 107
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 395,
+                    "y": 239,
+                    "width": 63,
+                    "height": 53
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "343p-55-front-zip-front-breakaway-safety-vest.jpg35504": {
+        "filename": "343p-55-front-zip-front-breakaway-safety-vest.jpg",
+        "size": 35504,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 190,
+                    "y": 101,
+                    "width": 297,
+                    "height": 304
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "20180217D584937.jpg637347": {
+        "filename": "20180217D584937.jpg",
+        "size": 637347,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 206,
+                    "y": 517,
+                    "width": 652,
+                    "height": 979
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "34525323.jpg6852": {
+        "filename": "34525323.jpg",
+        "size": 6852,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 19,
+                    "y": 87,
+                    "width": 51,
+                    "height": 73
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 66,
+                    "y": 53,
+                    "width": 64,
+                    "height": 82
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "214134135.jpg174866": {
+        "filename": "214134135.jpg",
+        "size": 174866,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 213,
+                    "y": 185,
+                    "width": 253,
+                    "height": 147
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 786,
+                    "y": 339,
+                    "width": 269,
+                    "height": 168
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 173,
+                    "y": 454,
+                    "width": 322,
+                    "height": 360
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 766,
+                    "y": 576,
+                    "width": 294,
+                    "height": 240
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "373031185.jpg245762": {
+        "filename": "373031185.jpg",
+        "size": 245762,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 916,
+                    "y": 387,
+                    "width": 352,
+                    "height": 514
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 1022,
+                    "y": 305,
+                    "width": 128,
+                    "height": 97
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 621,
+                    "y": 399,
+                    "width": 108,
+                    "height": 94
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 237,
+                    "y": 280,
+                    "width": 126,
+                    "height": 106
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 981,
+                    "y": 157,
+                    "width": 184,
+                    "height": 123
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "475480066.jpg54789": {
+        "filename": "475480066.jpg",
+        "size": 54789,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 74,
+                    "y": 292,
+                    "width": 128,
+                    "height": 148
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 421,
+                    "y": 318,
+                    "width": 112,
+                    "height": 96
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 64,
+                    "y": 241,
+                    "width": 221,
+                    "height": 241
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 263,
+                    "y": 263,
+                    "width": 239,
+                    "height": 220
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "565563422.jpg47828": {
+        "filename": "565563422.jpg",
+        "size": 47828,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 216,
+                    "y": 20,
+                    "width": 257,
+                    "height": 263
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "1654309252.jpg23676": {
+        "filename": "1654309252.jpg",
+        "size": 23676,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 154,
+                    "y": 104,
+                    "width": 120,
+                    "height": 155
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 181,
+                    "y": 10,
+                    "width": 77,
+                    "height": 55
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "12521413221e.jpg408934": {
+        "filename": "12521413221e.jpg",
+        "size": 408934,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 155,
+                    "y": 448,
+                    "width": 322,
+                    "height": 452
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "1209078145612.jpg36121": {
+        "filename": "1209078145612.jpg",
+        "size": 36121,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 262,
+                    "y": 165,
+                    "width": 108,
+                    "height": 157
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 419,
+                    "y": 235,
+                    "width": 76,
+                    "height": 123
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 428,
+                    "y": 179,
+                    "width": 55,
+                    "height": 44
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 306,
+                    "y": 95,
+                    "width": 54,
+                    "height": 41
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "1522380376938.jpg50831": {
+        "filename": "1522380376938.jpg",
+        "size": 50831,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 231,
+                    "y": 124,
+                    "width": 87,
+                    "height": 110
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 395,
+                    "y": 131,
+                    "width": 66,
+                    "height": 58
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "1535953641347.jpg51253": {
+        "filename": "1535953641347.jpg",
+        "size": 51253,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 195,
+                    "y": 112,
+                    "width": 154,
+                    "height": 186
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Black_Safety_Apparel.jpg34067": {
+        "filename": "Black_Safety_Apparel.jpg",
+        "size": 34067,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 365,
+                    "y": 64,
+                    "width": 153,
+                    "height": 228
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "construction_worker_laborer.jpg55357": {
+        "filename": "construction_worker_laborer.jpg",
+        "size": 55357,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 403,
+                    "y": 223,
+                    "width": 306,
+                    "height": 442
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 505,
+                    "y": 13,
+                    "width": 177,
+                    "height": 113
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "csp36505457.jpg38624": {
+        "filename": "csp36505457.jpg",
+        "size": 38624,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 163,
+                    "y": 125,
+                    "width": 82,
+                    "height": 112
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "depositphotos_241827518-stock-photo-people-wearing-hardhats-vests-visit.jpg183082": {
+        "filename": "depositphotos_241827518-stock-photo-people-wearing-hardhats-vests-visit.jpg",
+        "size": 183082,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 182,
+                    "y": 221,
+                    "width": 121,
+                    "height": 93
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 614,
+                    "y": 242,
+                    "width": 105,
+                    "height": 100
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 844,
+                    "y": 240,
+                    "width": 117,
+                    "height": 94
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 1102,
+                    "y": 271,
+                    "width": 139,
+                    "height": 121
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 100,
+                    "y": 349,
+                    "width": 238,
+                    "height": 317
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 505,
+                    "y": 354,
+                    "width": 244,
+                    "height": 320
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 760,
+                    "y": 367,
+                    "width": 265,
+                    "height": 367
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 1073,
+                    "y": 422,
+                    "width": 222,
+                    "height": 343
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "dM99Ckf4Ey.jpg52022": {
+        "filename": "dM99Ckf4Ey.jpg",
+        "size": 52022,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 230,
+                    "y": 268,
+                    "width": 49,
+                    "height": 68
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 286,
+                    "y": 291,
+                    "width": 48,
+                    "height": 63
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 360,
+                    "y": 260,
+                    "width": 42,
+                    "height": 60
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 449,
+                    "y": 292,
+                    "width": 50,
+                    "height": 59
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 530,
+                    "y": 272,
+                    "width": 60,
+                    "height": 68
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 182,
+                    "y": 144,
+                    "width": 102,
+                    "height": 132
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 276,
+                    "y": 176,
+                    "width": 79,
+                    "height": 117
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 347,
+                    "y": 177,
+                    "width": 74,
+                    "height": 103
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 424,
+                    "y": 200,
+                    "width": 86,
+                    "height": 103
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 510,
+                    "y": 171,
+                    "width": 83,
+                    "height": 125
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "gettyimages-1071234096-1024x1024.jpg236216": {
+        "filename": "gettyimages-1071234096-1024x1024.jpg",
+        "size": 236216,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 5,
+                    "y": 180,
+                    "width": 345,
+                    "height": 491
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 277,
+                    "y": 247,
+                    "width": 189,
+                    "height": 267
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 826,
+                    "y": 279,
+                    "width": 196,
+                    "height": 224
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "gettyimages-1202300182-612x612.jpg43919": {
+        "filename": "gettyimages-1202300182-612x612.jpg",
+        "size": 43919,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 226,
+                    "y": 189,
+                    "width": 55,
+                    "height": 85
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 397,
+                    "y": 168,
+                    "width": 74,
+                    "height": 103
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "ing_33594_252620.jpg56914": {
+        "filename": "ing_33594_252620.jpg",
+        "size": 56914,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 93,
+                    "y": 101,
+                    "width": 86,
+                    "height": 125
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-458863671-612x612.jpg46935": {
+        "filename": "istockphoto-458863671-612x612.jpg",
+        "size": 46935,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 254,
+                    "y": 156,
+                    "width": 65,
+                    "height": 89
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-479468740-612x612.jpg51152": {
+        "filename": "istockphoto-479468740-612x612.jpg",
+        "size": 51152,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 230,
+                    "y": 136,
+                    "width": 99,
+                    "height": 116
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 302,
+                    "y": 108,
+                    "width": 85,
+                    "height": 126
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 385,
+                    "y": 94,
+                    "width": 89,
+                    "height": 111
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-521695552-612x612.jpg80869": {
+        "filename": "istockphoto-521695552-612x612.jpg",
+        "size": 80869,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 147,
+                    "y": 225,
+                    "width": 31,
+                    "height": 38
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 213,
+                    "y": 219,
+                    "width": 40,
+                    "height": 25
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 328,
+                    "y": 122,
+                    "width": 46,
+                    "height": 56
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-523029870-612x612.jpg86517": {
+        "filename": "istockphoto-523029870-612x612.jpg",
+        "size": 86517,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 210,
+                    "y": 127,
+                    "width": 72,
+                    "height": 85
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 212,
+                    "y": 255,
+                    "width": 72,
+                    "height": 93
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-610569932-612x612.jpg64450": {
+        "filename": "istockphoto-610569932-612x612.jpg",
+        "size": 64450,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 162,
+                    "y": 174,
+                    "width": 79,
+                    "height": 154
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 266,
+                    "y": 157,
+                    "width": 107,
+                    "height": 130
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1028421558-612x612.jpg36419": {
+        "filename": "istockphoto-1028421558-612x612.jpg",
+        "size": 36419,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 145,
+                    "y": 148,
+                    "width": 50,
+                    "height": 68
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 320,
+                    "y": 152,
+                    "width": 70,
+                    "height": 64
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1028421560-612x612.jpg55796": {
+        "filename": "istockphoto-1028421560-612x612.jpg",
+        "size": 55796,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 306,
+                    "y": 204,
+                    "width": 119,
+                    "height": 132
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 434,
+                    "y": 250,
+                    "width": 177,
+                    "height": 177
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1028421688-612x612.jpg29918": {
+        "filename": "istockphoto-1028421688-612x612.jpg",
+        "size": 29918,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 278,
+                    "y": 236,
+                    "width": 32,
+                    "height": 48
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 350,
+                    "y": 248,
+                    "width": 49,
+                    "height": 33
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1145767308-612x612.jpg43898": {
+        "filename": "istockphoto-1145767308-612x612.jpg",
+        "size": 43898,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 346,
+                    "y": 153,
+                    "width": 51,
+                    "height": 27
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 362,
+                    "y": 186,
+                    "width": 71,
+                    "height": 122
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1153748833-612x612.jpg30608": {
+        "filename": "istockphoto-1153748833-612x612.jpg",
+        "size": 30608,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 118,
+                    "y": 233,
+                    "width": 149,
+                    "height": 174
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1154399563-170667a.jpg101055": {
+        "filename": "istockphoto-1154399563-170667a.jpg",
+        "size": 101055,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 201,
+                    "y": 139,
+                    "width": 64,
+                    "height": 115
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1154399659-170667a.jpg97441": {
+        "filename": "istockphoto-1154399659-170667a.jpg",
+        "size": 97441,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 198,
+                    "y": 110,
+                    "width": 95,
+                    "height": 114
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 240,
+                    "y": 267,
+                    "width": 102,
+                    "height": 71
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1172597253-612x612.jpg44197": {
+        "filename": "istockphoto-1172597253-612x612.jpg",
+        "size": 44197,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 2,
+                    "y": 133,
+                    "width": 256,
+                    "height": 274
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1172886813-612x612.jpg52307": {
+        "filename": "istockphoto-1172886813-612x612.jpg",
+        "size": 52307,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 134,
+                    "y": 247,
+                    "width": 106,
+                    "height": 140
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 539,
+                    "y": 275,
+                    "width": 63,
+                    "height": 74
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 374,
+                    "y": 138,
+                    "width": 163,
+                    "height": 221
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 38,
+                    "y": 106,
+                    "width": 193,
+                    "height": 214
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1179947127.jpg54633": {
+        "filename": "istockphoto-1179947127.jpg",
+        "size": 54633,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 1,
+                    "y": 52,
+                    "width": 119,
+                    "height": 259
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 221,
+                    "y": 121,
+                    "width": 74,
+                    "height": 111
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 492,
+                    "y": 129,
+                    "width": 68,
+                    "height": 112
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1201426861-612x612.jpg33836": {
+        "filename": "istockphoto-1201426861-612x612.jpg",
+        "size": 33836,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 360,
+                    "y": 165,
+                    "width": 31,
+                    "height": 46
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 409,
+                    "y": 174,
+                    "width": 33,
+                    "height": 42
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 466,
+                    "y": 173,
+                    "width": 34,
+                    "height": 44
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1203973070-612x612.jpg60976": {
+        "filename": "istockphoto-1203973070-612x612.jpg",
+        "size": 60976,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 298,
+                    "y": 190,
+                    "width": 60,
+                    "height": 80
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 413,
+                    "y": 196,
+                    "width": 33,
+                    "height": 40
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1205288694-612x612.jpg46824": {
+        "filename": "istockphoto-1205288694-612x612.jpg",
+        "size": 46824,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 198,
+                    "y": 112,
+                    "width": 102,
+                    "height": 78
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1226764739-612x612.jpg36782": {
+        "filename": "istockphoto-1226764739-612x612.jpg",
+        "size": 36782,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 337,
+                    "y": 205,
+                    "width": 158,
+                    "height": 202
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 381,
+                    "y": 155,
+                    "width": 64,
+                    "height": 45
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 374,
+                    "y": 87,
+                    "width": 81,
+                    "height": 56
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "istockphoto-1266736450-612x612.jpg38669": {
+        "filename": "istockphoto-1266736450-612x612.jpg",
+        "size": 38669,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 151,
+                    "y": 0,
+                    "width": 98,
+                    "height": 84
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 72,
+                    "y": 55,
+                    "width": 176,
+                    "height": 251
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "LED-SafeVest-for-People-Safety.jpg45491": {
+        "filename": "LED-SafeVest-for-People-Safety.jpg",
+        "size": 45491,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 98,
+                    "y": 6,
+                    "width": 365,
+                    "height": 432
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "male-teacher-wearing-safety-vest-gesturing-welcome-hand-looking-to-side-isolated-white-background-158774430.jpg82864": {
+        "filename": "male-teacher-wearing-safety-vest-gesturing-welcome-hand-looking-to-side-isolated-white-background-158774430.jpg",
+        "size": 82864,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 621,
+                    "y": 363,
+                    "width": 417,
+                    "height": 574
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "maxresdefault.jpg106134": {
+        "filename": "maxresdefault.jpg",
+        "size": 106134,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 113,
+                    "y": 236,
+                    "width": 1087,
+                    "height": 483
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "men-wearing-high-visibility-safety-vest-before-the-start-of-the-santa-KFEF8B.jpg268034": {
+        "filename": "men-wearing-high-visibility-safety-vest-before-the-start-of-the-santa-KFEF8B.jpg",
+        "size": 268034,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 149,
+                    "y": 249,
+                    "width": 222,
+                    "height": 319
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 370,
+                    "y": 239,
+                    "width": 261,
+                    "height": 326
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 649,
+                    "y": 268,
+                    "width": 251,
+                    "height": 321
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 912,
+                    "y": 257,
+                    "width": 283,
+                    "height": 340
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "MominTrades_MeganK_lead.jpg16536": {
+        "filename": "MominTrades_MeganK_lead.jpg",
+        "size": 16536,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 386,
+                    "y": 4,
+                    "width": 123,
+                    "height": 93
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "n413638528.jpg34424": {
+        "filename": "n413638528.jpg",
+        "size": 34424,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 36,
+                    "y": 25,
+                    "width": 103,
+                    "height": 65
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 210,
+                    "y": 0,
+                    "width": 78,
+                    "height": 46
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 19,
+                    "y": 116,
+                    "width": 143,
+                    "height": 143
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 206,
+                    "y": 72,
+                    "width": 171,
+                    "height": 188
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "photo-1544993570-9335fcf50279.jpg74005": {
+        "filename": "photo-1544993570-9335fcf50279.jpg",
+        "size": 74005,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 424,
+                    "y": 179,
+                    "width": 319,
+                    "height": 463
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "photo-1569496736555-47c448d556f7.jpg142532": {
+        "filename": "photo-1569496736555-47c448d556f7.jpg",
+        "size": 142532,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 356,
+                    "y": 52,
+                    "width": 156,
+                    "height": 106
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 251,
+                    "y": 203,
+                    "width": 287,
+                    "height": 357
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 540,
+                    "y": 145,
+                    "width": 244,
+                    "height": 411
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "she-for-constr-workers-2018.jpg148112": {
+        "filename": "she-for-constr-workers-2018.jpg",
+        "size": 148112,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 362,
+                    "y": 403,
+                    "width": 98,
+                    "height": 147
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 421,
+                    "y": 204,
+                    "width": 222,
+                    "height": 324
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "shutterstock_345242159-1-780x450-1.jpg62458": {
+        "filename": "shutterstock_345242159-1-780x450-1.jpg",
+        "size": 62458,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 162,
+                    "y": 0,
+                    "width": 187,
+                    "height": 101
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 490,
+                    "y": 63,
+                    "width": 195,
+                    "height": 140
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 109,
+                    "y": 198,
+                    "width": 229,
+                    "height": 250
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 497,
+                    "y": 268,
+                    "width": 211,
+                    "height": 180
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Topman4482.jpg62517": {
+        "filename": "Topman4482.jpg",
+        "size": 62517,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 208,
+                    "y": 219,
+                    "width": 350,
+                    "height": 517
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "unnamed22e2.jpg48669": {
+        "filename": "unnamed22e2.jpg",
+        "size": 48669,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 64,
+                    "y": 37,
+                    "width": 70,
+                    "height": 99
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "VES2908-P-2.jpg52169": {
+        "filename": "VES2908-P-2.jpg",
+        "size": 52169,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 176,
+                    "y": 151,
+                    "width": 239,
+                    "height": 345
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "worker-health-hygene.jpg123143": {
+        "filename": "worker-health-hygene.jpg",
+        "size": 123143,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 58,
+                    "y": 88,
+                    "width": 86,
+                    "height": 99
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 255,
+                    "y": 83,
+                    "width": 69,
+                    "height": 93
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 374,
+                    "y": 69,
+                    "width": 69,
+                    "height": 95
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 514,
+                    "y": 83,
+                    "width": 84,
+                    "height": 137
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "172uir77871.jpg80021": {
+        "filename": "172uir77871.jpg",
+        "size": 80021,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 222,
+                    "y": 175,
+                    "width": 108,
+                    "height": 102
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 578,
+                    "y": 124,
+                    "width": 140,
+                    "height": 107
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 183,
+                    "y": 42,
+                    "width": 171,
+                    "height": 119
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 534,
+                    "y": 1,
+                    "width": 189,
+                    "height": 135
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "27212h913.jpg1274001": {
+        "filename": "27212h913.jpg",
+        "size": 1274001,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 580,
+                    "y": 110,
+                    "width": 84,
+                    "height": 74
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 510,
+                    "y": 172,
+                    "width": 245,
+                    "height": 348
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "64073-140.jpg107902": {
+        "filename": "64073-140.jpg",
+        "size": 107902,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 134,
+                    "y": 102,
+                    "width": 65,
+                    "height": 61
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 280,
+                    "y": 158,
+                    "width": 55,
+                    "height": 45
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 474,
+                    "y": 159,
+                    "width": 58,
+                    "height": 41
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 99,
+                    "y": 10,
+                    "width": 139,
+                    "height": 96
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 270,
+                    "y": 81,
+                    "width": 86,
+                    "height": 72
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 462,
+                    "y": 90,
+                    "width": 84,
+                    "height": 65
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 0,
+                    "y": 132,
+                    "width": 174,
+                    "height": 284
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 205,
+                    "y": 194,
+                    "width": 170,
+                    "height": 186
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 437,
+                    "y": 189,
+                    "width": 159,
+                    "height": 160
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "construction_0.jpg346322": {
+        "filename": "construction_0.jpg",
+        "size": 346322,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 638,
+                    "y": 254,
+                    "width": 279,
+                    "height": 191
+                },
+                "region_attributes": {
+                    "class_name": "mask"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 512,
+                    "y": 449,
+                    "width": 645,
+                    "height": 495
+                },
+                "region_attributes": {
+                    "class_name": "vest"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 585,
+                    "y": 22,
+                    "width": 339,
+                    "height": 267
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "5effc763a86f2.image.jpg102189": {
+        "filename": "5effc763a86f2.image.jpg",
+        "size": 102189,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 178,
+                    "y": 210,
+                    "width": 67,
+                    "height": 64
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 257,
+                    "y": 169,
+                    "width": 93,
+                    "height": 70
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "5effc76482457.image.jpg52580": {
+        "filename": "5effc76482457.image.jpg",
+        "size": 52580,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 42,
+                    "y": 345,
+                    "width": 55,
+                    "height": 60
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 392,
+                    "y": 172,
+                    "width": 60,
+                    "height": 40
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "31a296012cf91ffb3cdf71ab7d6dd3f8.jpg393212": {
+        "filename": "31a296012cf91ffb3cdf71ab7d6dd3f8.jpg",
+        "size": 393212,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 78,
+                    "y": 440,
+                    "width": 1297,
+                    "height": 1097
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "074bdd6b-36b4-4729-b200-9c1b98b080.jpg44394": {
+        "filename": "074bdd6b-36b4-4729-b200-9c1b98b080.jpg",
+        "size": 44394,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 55,
+                    "y": 1,
+                    "width": 360,
+                    "height": 213
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 416,
+                    "y": 122,
+                    "width": 173,
+                    "height": 101
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "714twist.jpg650686": {
+        "filename": "714twist.jpg",
+        "size": 650686,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 319,
+                    "y": 66,
+                    "width": 133,
+                    "height": 111
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "1200px-Calvin_Borel.jpg382709": {
+        "filename": "1200px-Calvin_Borel.jpg",
+        "size": 382709,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 169,
+                    "y": 221,
+                    "width": 664,
+                    "height": 383
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "2017_0613_carpenters.jpg42681": {
+        "filename": "2017_0613_carpenters.jpg",
+        "size": 42681,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 349,
+                    "y": 52,
+                    "width": 101,
+                    "height": 94
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "60113-app3.jpg129745": {
+        "filename": "60113-app3.jpg",
+        "size": 129745,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 111,
+                    "y": 237,
+                    "width": 580,
+                    "height": 398
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "29070343_d1c8ed5e4d_b.jpg144228": {
+        "filename": "29070343_d1c8ed5e4d_b.jpg",
+        "size": 144228,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 214,
+                    "y": 82,
+                    "width": 246,
+                    "height": 238
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "89439241714huhd1ed.jpg9268": {
+        "filename": "89439241714huhd1ed.jpg",
+        "size": 9268,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 0,
+                    "y": 2,
+                    "width": 208,
+                    "height": 119
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Atalayar_Cascos Inteligentes PolicÃ­a DubÃ¡i Emiratos.jpg51250": {
+        "filename": "Atalayar_Cascos Inteligentes PolicÃ­a DubÃ¡i Emiratos.jpg",
+        "size": 51250,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 183,
+                    "y": 36,
+                    "width": 417,
+                    "height": 221
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "b2ap3_large_Web-Bullard-New-Ab.jpg42536": {
+        "filename": "b2ap3_large_Web-Bullard-New-Ab.jpg",
+        "size": 42536,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 66,
+                    "y": 47,
+                    "width": 280,
+                    "height": 206
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "businessman2313.jpg145253": {
+        "filename": "businessman2313.jpg",
+        "size": 145253,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 177,
+                    "y": 44,
+                    "width": 267,
+                    "height": 221
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "businessman-5354.jpg88968": {
+        "filename": "businessman-5354.jpg",
+        "size": 88968,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 320,
+                    "y": 302,
+                    "width": 312,
+                    "height": 257
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "download5256665765.jpg26444": {
+        "filename": "download5256665765.jpg",
+        "size": 26444,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 130,
+                    "y": 35,
+                    "width": 48,
+                    "height": 35
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Equipment.jpg4685471": {
+        "filename": "Equipment.jpg",
+        "size": 4685471,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 1327,
+                    "y": 326,
+                    "width": 1041,
+                    "height": 631
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Hardhat5243.jpg125970": {
+        "filename": "Hardhat5243.jpg",
+        "size": 125970,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 327,
+                    "y": 0,
+                    "width": 363,
+                    "height": 214
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "hardhat-on-a-post4335.jpg137276": {
+        "filename": "hardhat-on-a-post4335.jpg",
+        "size": 137276,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 78,
+                    "y": 24,
+                    "width": 473,
+                    "height": 622
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "hqdefault.jpg18921": {
+        "filename": "hqdefault.jpg",
+        "size": 18921,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 132,
+                    "y": 215,
+                    "width": 103,
+                    "height": 66
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "ISHN0312-F2pic-422px1.jpg31710": {
+        "filename": "ISHN0312-F2pic-422px1.jpg",
+        "size": 31710,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 134,
+                    "y": 15,
+                    "width": 208,
+                    "height": 111
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "ISHN0915_F10_pic.jpg58196": {
+        "filename": "ISHN0915_F10_pic.jpg",
+        "size": 58196,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 359,
+                    "y": 1,
+                    "width": 387,
+                    "height": 347
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "Lift-02_1400x.progressive-1300x813.jpg131286": {
+        "filename": "Lift-02_1400x.progressive-1300x813.jpg",
+        "size": 131286,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 479,
+                    "y": 73,
+                    "width": 508,
+                    "height": 292
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "msa-head-protection-tof-2881-l_10985462.jpg37712": {
+        "filename": "msa-head-protection-tof-2881-l_10985462.jpg",
+        "size": 37712,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 130,
+                    "y": 0,
+                    "width": 247,
+                    "height": 199
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "offset_976544.jpg74149": {
+        "filename": "offset_976544.jpg",
+        "size": 74149,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 124,
+                    "y": 236,
+                    "width": 129,
+                    "height": 90
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "OHS_March_2020.jpg23784": {
+        "filename": "OHS_March_2020.jpg",
+        "size": 23784,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 10,
+                    "y": 82,
+                    "width": 56,
+                    "height": 66
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "portrait-of-a-hispanic-carpenter-wearing-a-hard-hat-and-holding-a-AT3YE0.jpg233356": {
+        "filename": "portrait-of-a-hispanic-carpenter-wearing-a-hard-hat-and-holding-a-AT3YE0.jpg",
+        "size": 233356,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 443,
+                    "y": 241,
+                    "width": 176,
+                    "height": 133
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "yellow-hardhat546464.jpg57495": {
+        "filename": "yellow-hardhat546464.jpg",
+        "size": 57495,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 211,
+                    "y": 42,
+                    "width": 223,
+                    "height": 162
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "sps-his-products-head-22.jpg96612": {
+        "filename": "sps-his-products-head-22.jpg",
+        "size": 96612,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "rect",
+                    "x": 37,
+                    "y": 176,
+                    "width": 402,
+                    "height": 524
+                },
+                "region_attributes": {
+                    "class_name": "hardhat"
+                }
+            }
+        ],
+        "file_attributes": {
+            "caption": "",
+            "public_domain": "no",
+            "image_url": ""
+        }
+    },
+    "images1 (1).jpg7251": {
+    "filename": "images (1).jpg",
+    "size": 7251,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 48,
+          "y": 78,
+          "width": 49,
+          "height": 63
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 155,
+          "y": 64,
+          "width": 84,
+          "height": 71
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (2).jpg10602": {
+    "filename": "images (2).jpg",
+    "size": 10602,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 14,
+          "y": 10,
+          "width": 71,
+          "height": 210
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 104,
+          "y": 6,
+          "width": 99,
+          "height": 212
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (3).jpg5981": {
+    "filename": "images (3).jpg",
+    "size": 5981,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 51,
+          "y": 110,
+          "width": 75,
+          "height": 62
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 130,
+          "y": 108,
+          "width": 73,
+          "height": 50
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (4).jpg7562": {
+    "filename": "images (4).jpg",
+    "size": 7562,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 174,
+          "y": 132,
+          "width": 20,
+          "height": 19
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 202,
+          "y": 128,
+          "width": 29,
+          "height": 17
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (5).jpg17163": {
+    "filename": "images (5).jpg",
+    "size": 17163,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 177,
+          "y": 114,
+          "width": 32,
+          "height": 58
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 160,
+          "y": 34,
+          "width": 20,
+          "height": 21
+        },
+        "region_attributes": {
+          "class_name": "mask"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (6).jpg13170": {
+    "filename": "images (6).jpg",
+    "size": 13170,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 11,
+          "y": 139,
+          "width": 29,
+          "height": 20
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 46,
+          "y": 141,
+          "width": 17,
+          "height": 22
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 122,
+          "y": 140,
+          "width": 20,
+          "height": 24
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 93,
+          "y": 117,
+          "width": 19,
+          "height": 24
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 173,
+          "y": 144,
+          "width": 18,
+          "height": 20
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 249,
+          "y": 137,
+          "width": 20,
+          "height": 25
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 274,
+          "y": 147,
+          "width": 19,
+          "height": 16
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1.jpg11819": {
+    "filename": "images.jpg",
+    "size": 11819,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 143,
+          "y": 214,
+          "width": 22,
+          "height": 19
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 101,
+          "y": 137,
+          "width": 11,
+          "height": 26
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 82,
+          "y": 127,
+          "width": 12,
+          "height": 21
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 138,
+          "y": 41,
+          "width": 27,
+          "height": 17
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 88,
+          "y": 8,
+          "width": 20,
+          "height": 14
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 67,
+          "y": 2,
+          "width": 19,
+          "height": 12
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 28,
+          "y": 25,
+          "width": 19,
+          "height": 11
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "Most-Comfortable-Shoes-for-Work-in-2020.jpg15605": {
+    "filename": "Most-Comfortable-Shoes-for-Work-in-2020.jpg",
+    "size": 15605,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 55,
+          "y": 72,
+          "width": 152,
+          "height": 193
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 237,
+          "y": 56,
+          "width": 168,
+          "height": 195
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "safety-shoes-ppe.jpg37815": {
+    "filename": "safety-shoes-ppe.jpg",
+    "size": 37815,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 571,
+          "y": 228,
+          "width": 109,
+          "height": 56
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 439,
+          "y": 152,
+          "width": 59,
+          "height": 67
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "Short-men-Chelsea-boots.jpg516934": {
+    "filename": "Short-men-Chelsea-boots.jpg",
+    "size": 516934,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 880,
+          "y": 1073,
+          "width": 101,
+          "height": 78
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 985,
+          "y": 1091,
+          "width": 58,
+          "height": 73
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "v1pobgyoar472z1ijynn.jpg134803": {
+    "filename": "v1pobgyoar472z1ijynn.jpg",
+    "size": 134803,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 528,
+          "y": 629,
+          "width": 96,
+          "height": 29
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 471,
+          "y": 636,
+          "width": 47,
+          "height": 16
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 486,
+          "y": 83,
+          "width": 94,
+          "height": 37
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (7).jpg8751": {
+    "filename": "images (7).jpg",
+    "size": 8751,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 135,
+          "y": 74,
+          "width": 99,
+          "height": 54
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (13).jpg7635": {
+    "filename": "images (13).jpg",
+    "size": 7635,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 130,
+          "y": 52,
+          "width": 114,
+          "height": 82
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 3,
+          "y": 4,
+          "width": 82,
+          "height": 139
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 21,
+          "y": 7,
+          "width": 107,
+          "height": 126
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (12).jpg10741": {
+    "filename": "images (12).jpg",
+    "size": 10741,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 26,
+          "y": 111,
+          "width": 27,
+          "height": 45
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 154,
+          "y": 133,
+          "width": 18,
+          "height": 17
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 188,
+          "y": 15,
+          "width": 41,
+          "height": 53
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (11).jpg11386": {
+    "filename": "images (11).jpg",
+    "size": 11386,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 94,
+          "y": 189,
+          "width": 24,
+          "height": 26
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 114,
+          "y": 188,
+          "width": 23,
+          "height": 22
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 135,
+          "y": 196,
+          "width": 29,
+          "height": 14
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 176,
+          "y": 188,
+          "width": 15,
+          "height": 27
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 198,
+          "y": 191,
+          "width": 21,
+          "height": 17
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 199,
+          "y": 209,
+          "width": 24,
+          "height": 13
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 96,
+          "y": 16,
+          "width": 35,
+          "height": 21
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 148,
+          "y": 12,
+          "width": 31,
+          "height": 22
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 189,
+          "y": 10,
+          "width": 33,
+          "height": 25
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 85,
+          "y": 47,
+          "width": 56,
+          "height": 49
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "Builder-Cutting-Breeze-Blocks-On-Site.jpg111448": {
+    "filename": "Builder-Cutting-Breeze-Blocks-On-Site.jpg",
+    "size": 111448,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 4,
+          "y": 649,
+          "width": 135,
+          "height": 84
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 283,
+          "y": 0,
+          "width": 194,
+          "height": 242
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "safety-footwear.jpg119768": {
+    "filename": "safety-footwear.jpg",
+    "size": 119768,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 241,
+          "y": 409,
+          "width": 36,
+          "height": 35
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 272,
+          "y": 385,
+          "width": 35,
+          "height": 48
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 439,
+          "y": 375,
+          "width": 47,
+          "height": 71
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 246,
+          "y": 5,
+          "width": 75,
+          "height": 39
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 424,
+          "y": 21,
+          "width": 80,
+          "height": 43
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 209,
+          "y": 63,
+          "width": 117,
+          "height": 167
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 401,
+          "y": 85,
+          "width": 128,
+          "height": 150
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (10).jpg11626": {
+    "filename": "images (10).jpg",
+    "size": 11626,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 47,
+          "y": 136,
+          "width": 21,
+          "height": 19
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 29,
+          "y": 18,
+          "width": 42,
+          "height": 57
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 130,
+          "y": 38,
+          "width": 44,
+          "height": 47
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (9).jpg9342": {
+    "filename": "images (9).jpg",
+    "size": 9342,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 204,
+          "y": 115,
+          "width": 68,
+          "height": 33
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 170,
+          "y": 125,
+          "width": 37,
+          "height": 20
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "womens-work-boots-sq.jpg52412": {
+    "filename": "womens-work-boots-sq.jpg",
+    "size": 52412,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 139,
+          "y": 363,
+          "width": 21,
+          "height": 26
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 181,
+          "y": 367,
+          "width": 27,
+          "height": 22
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 221,
+          "y": 382,
+          "width": 67,
+          "height": 15
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (8).jpg9375": {
+    "filename": "images (8).jpg",
+    "size": 9375,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 18,
+          "y": 71,
+          "width": 42,
+          "height": 60
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 55,
+          "y": 83,
+          "width": 54,
+          "height": 52
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 221,
+          "y": 80,
+          "width": 75,
+          "height": 59
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 109,
+          "y": 51,
+          "width": 110,
+          "height": 40
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "72896898-low-section-shot-of-legs-of-two-construction-workers-wearing-jeans-and-brown-leather-work-boots-stan.jpg151394": {
+    "filename": "72896898-low-section-shot-of-legs-of-two-construction-workers-wearing-jeans-and-brown-leather-work-boots-stan.jpg",
+    "size": 151394,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 389,
+          "y": 676,
+          "width": 173,
+          "height": 162
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 499,
+          "y": 606,
+          "width": 139,
+          "height": 125
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 703,
+          "y": 592,
+          "width": 77,
+          "height": 81
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 855,
+          "y": 586,
+          "width": 85,
+          "height": 85
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 908,
+          "y": 690,
+          "width": 242,
+          "height": 136
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 989,
+          "y": 644,
+          "width": 189,
+          "height": 97
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (16).jpg10636": {
+    "filename": "images (16).jpg",
+    "size": 10636,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 98,
+          "y": 76,
+          "width": 148,
+          "height": 71
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 72,
+          "y": 95,
+          "width": 21,
+          "height": 30
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2,
+          "y": 114,
+          "width": 16,
+          "height": 14
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (15).jpg10991": {
+    "filename": "images (15).jpg",
+    "size": 10991,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 102,
+          "y": 154,
+          "width": 49,
+          "height": 27
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 218,
+          "y": 143,
+          "width": 26,
+          "height": 36
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 176,
+          "y": 60,
+          "width": 58,
+          "height": 65
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 148,
+          "y": 36,
+          "width": 40,
+          "height": 26
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (14).jpg10004": {
+    "filename": "images (14).jpg",
+    "size": 10004,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 71,
+          "y": 175,
+          "width": 60,
+          "height": 31
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 191,
+          "y": 174,
+          "width": 22,
+          "height": 20
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 78,
+          "y": 22,
+          "width": 124,
+          "height": 94
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 28,
+          "y": 4,
+          "width": 61,
+          "height": 55
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (19).jpg16293": {
+    "filename": "images (19).jpg",
+    "size": 16293,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 100,
+          "y": 31,
+          "width": 49,
+          "height": 53
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 15,
+          "y": 185,
+          "width": 29,
+          "height": 45
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 65,
+          "y": 204,
+          "width": 48,
+          "height": 25
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (18).jpg14388": {
+    "filename": "images (18).jpg",
+    "size": 14388,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 68,
+          "y": 129,
+          "width": 34,
+          "height": 23
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 53,
+          "y": 131,
+          "width": 12,
+          "height": 19
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 96,
+          "y": 129,
+          "width": 16,
+          "height": 16
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 117,
+          "y": 130,
+          "width": 12,
+          "height": 14
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 138,
+          "y": 130,
+          "width": 14,
+          "height": 12
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 94,
+          "y": 12,
+          "width": 22,
+          "height": 22
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 122,
+          "y": 36,
+          "width": 14,
+          "height": 15
+        },
+        "region_attributes": {}
+      }
+    ],
+    "file_attributes": {}
+  },
+  "Builder-Operating-Circular-Saw-Roofing.jpg137161": {
+    "filename": "Builder-Operating-Circular-Saw-Roofing.jpg",
+    "size": 137161,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 9,
+          "y": 559,
+          "width": 114,
+          "height": 91
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 305,
+          "y": 1,
+          "width": 211,
+          "height": 186
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "builder-building-site-looking-plans-apprentices-59930624.jpg204396": {
+    "filename": "builder-building-site-looking-plans-apprentices-59930624.jpg",
+    "size": 204396,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 420,
+          "y": 712,
+          "width": 50,
+          "height": 60
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 556,
+          "y": 709,
+          "width": 57,
+          "height": 38
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 587,
+          "y": 745,
+          "width": 75,
+          "height": 33
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 677,
+          "y": 752,
+          "width": 41,
+          "height": 36
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 746,
+          "y": 731,
+          "width": 82,
+          "height": 63
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 805,
+          "y": 779,
+          "width": 107,
+          "height": 47
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 914,
+          "y": 772,
+          "width": 38,
+          "height": 39
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 510,
+          "y": 236,
+          "width": 63,
+          "height": 45
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 643,
+          "y": 279,
+          "width": 75,
+          "height": 50
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 747,
+          "y": 277,
+          "width": 83,
+          "height": 47
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 817,
+          "y": 229,
+          "width": 96,
+          "height": 61
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 466,
+          "y": 313,
+          "width": 142,
+          "height": 185
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 740,
+          "y": 352,
+          "width": 103,
+          "height": 197
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 848,
+          "y": 319,
+          "width": 110,
+          "height": 235
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 615,
+          "y": 351,
+          "width": 120,
+          "height": 190
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (17).jpg10495": {
+    "filename": "images (17).jpg",
+    "size": 10495,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 187,
+          "y": 129,
+          "width": 38,
+          "height": 37
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 120,
+          "y": 46,
+          "width": 22,
+          "height": 27
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "img-securite-right@2x.jpg651356": {
+    "filename": "img-securite-right@2x.jpg",
+    "size": 651356,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 481,
+          "y": 470,
+          "width": 52,
+          "height": 64
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 97,
+          "y": 288,
+          "width": 41,
+          "height": 86
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 517,
+          "y": 193,
+          "width": 59,
+          "height": 38
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 67,
+          "y": 115,
+          "width": 57,
+          "height": 37
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "depositphotos_6374081-stock-photo-female-construction-workers.jpg131482": {
+    "filename": "depositphotos_6374081-stock-photo-female-construction-workers.jpg",
+    "size": 131482,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 157,
+          "y": 60,
+          "width": 124,
+          "height": 88
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 330,
+          "y": 133,
+          "width": 110,
+          "height": 69
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 579,
+          "y": 90,
+          "width": 104,
+          "height": 67
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 640,
+          "y": 381,
+          "width": 111,
+          "height": 76
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 9,
+          "y": 704,
+          "width": 129,
+          "height": 246
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 192,
+          "y": 690,
+          "width": 156,
+          "height": 214
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 329,
+          "y": 667,
+          "width": 103,
+          "height": 191
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 599,
+          "y": 739,
+          "width": 161,
+          "height": 198
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 752,
+          "y": 797,
+          "width": 127,
+          "height": 93
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (25).jpg13655": {
+    "filename": "images (25).jpg",
+    "size": 13655,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 27,
+          "y": 187,
+          "width": 38,
+          "height": 22
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 84,
+          "y": 197,
+          "width": 45,
+          "height": 24
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 76,
+          "y": 0,
+          "width": 41,
+          "height": 24
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (24).jpg12662": {
+    "filename": "images (24).jpg",
+    "size": 12662,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 42,
+          "y": 120,
+          "width": 24,
+          "height": 24
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 76,
+          "y": 124,
+          "width": 16,
+          "height": 27
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 97,
+          "y": 127,
+          "width": 16,
+          "height": 23
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 136,
+          "y": 132,
+          "width": 12,
+          "height": 21
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 145,
+          "y": 150,
+          "width": 23,
+          "height": 29
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 182,
+          "y": 148,
+          "width": 20,
+          "height": 26
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 205,
+          "y": 152,
+          "width": 38,
+          "height": 27
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (23).jpg9237": {
+    "filename": "images (23).jpg",
+    "size": 9237,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 164,
+          "y": 145,
+          "width": 19,
+          "height": 26
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 147,
+          "y": 144,
+          "width": 15,
+          "height": 17
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 145,
+          "y": 33,
+          "width": 37,
+          "height": 22
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 146,
+          "y": 64,
+          "width": 47,
+          "height": 57
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (22).jpg12874": {
+    "filename": "images (22).jpg",
+    "size": 12874,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 195,
+          "y": 120,
+          "width": 59,
+          "height": 31
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (21).jpg10803": {
+    "filename": "images (21).jpg",
+    "size": 10803,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 59,
+          "y": 213,
+          "width": 25,
+          "height": 18
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 59,
+          "y": 21,
+          "width": 31,
+          "height": 18
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 45,
+          "y": 55,
+          "width": 55,
+          "height": 82
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (20).jpg8909": {
+    "filename": "images (20).jpg",
+    "size": 8909,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 55,
+          "y": 95,
+          "width": 43,
+          "height": 53
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 111,
+          "y": 100,
+          "width": 39,
+          "height": 44
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "81TiFgsbKfL._SL1500_.jpg306638": {
+    "filename": "81TiFgsbKfL._SL1500_.jpg",
+    "size": 306638,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 392,
+          "y": 1218,
+          "width": 326,
+          "height": 175
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 877,
+          "y": 1084,
+          "width": 125,
+          "height": 248
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 320,
+          "y": 197,
+          "width": 254,
+          "height": 269
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 132,
+          "y": -2,
+          "width": 186,
+          "height": 156
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 458,
+          "y": 357,
+          "width": 541,
+          "height": 517
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (29).jpg9781": {
+    "filename": "images (29).jpg",
+    "size": 9781,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 101,
+          "y": 167,
+          "width": 23,
+          "height": 20
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 136,
+          "y": 167,
+          "width": 29,
+          "height": 22
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "shockproof-shoes.jpg10648": {
+    "filename": "shockproof-shoes.jpg",
+    "size": 10648,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 6,
+          "y": 6,
+          "width": 108,
+          "height": 63
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 99,
+          "y": 148,
+          "width": 21,
+          "height": 29
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 126,
+          "y": 180,
+          "width": 24,
+          "height": 27
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 165,
+          "y": 41,
+          "width": 28,
+          "height": 18
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "gettyimages-916097720-612x612.jpg43712": {
+    "filename": "gettyimages-916097720-612x612.jpg",
+    "size": 43712,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 251,
+          "y": 308,
+          "width": 117,
+          "height": 99
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 372,
+          "y": 317,
+          "width": 56,
+          "height": 67
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 426,
+          "y": 307,
+          "width": 65,
+          "height": 71
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 64,
+          "y": 137,
+          "width": 162,
+          "height": 160
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (28).jpg11507": {
+    "filename": "images (28).jpg",
+    "size": 11507,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 123,
+          "y": 197,
+          "width": 21,
+          "height": 40
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 32,
+          "y": 135,
+          "width": 20,
+          "height": 32
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 59,
+          "y": 131,
+          "width": 21,
+          "height": 24
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 35,
+          "y": 49,
+          "width": 14,
+          "height": 10
+        },
+        "region_attributes": {
+          "class_name": "mask"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (27).jpg11015": {
+    "filename": "images (27).jpg",
+    "size": 11015,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 44,
+          "y": 70,
+          "width": 46,
+          "height": 57
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 102,
+          "y": 81,
+          "width": 59,
+          "height": 43
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "024_1.jpg292264": {
+    "filename": "024_1.jpg",
+    "size": 292264,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 265,
+          "y": 343,
+          "width": 487,
+          "height": 701
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 715,
+          "y": 375,
+          "width": 257,
+          "height": 615
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "a-young-woman-putting-on-some-steel-toe-cap-boots-at-a-boat-shed-C2MPX6.jpg242831": {
+    "filename": "a-young-woman-putting-on-some-steel-toe-cap-boots-at-a-boat-shed-C2MPX6.jpg",
+    "size": 242831,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 343,
+          "y": 907,
+          "width": 249,
+          "height": 278
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "timberland-welding-boots.jpg35316": {
+    "filename": "timberland-welding-boots.jpg",
+    "size": 35316,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 327,
+          "y": 847,
+          "width": 161,
+          "height": 77
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 129,
+          "y": 131,
+          "width": 154,
+          "height": 75
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "images1 (26).jpg9768": {
+    "filename": "images (26).jpg",
+    "size": 9768,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 144,
+          "y": 148,
+          "width": 26,
+          "height": 20
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 116,
+          "y": 55,
+          "width": 54,
+          "height": 31
+        },
+        "region_attributes": {
+          "class_name": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 99,
+          "y": 36,
+          "width": 33,
+          "height": 14
+        },
+        "region_attributes": {
+          "class_name": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "steelblue-nov18.jpg455864": {
+    "filename": "steelblue-nov18.jpg",
+    "size": 455864,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 99,
+          "y": 318,
+          "width": 125,
+          "height": 98
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 249,
+          "y": 334,
+          "width": 72,
+          "height": 77
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 564,
+          "y": 289,
+          "width": 78,
+          "height": 134
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 646,
+          "y": 252,
+          "width": 124,
+          "height": 160
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  },
+  "aydzfbws1tzjiizlnxww.jpg60172": {
+    "filename": "aydzfbws1tzjiizlnxww.jpg",
+    "size": 60172,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 407,
+          "y": 400,
+          "width": 172,
+          "height": 178
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 558,
+          "y": 537,
+          "width": 256,
+          "height": 151
+        },
+        "region_attributes": {
+          "class_name": "boots"
+        }
+      }
+    ],
+    "file_attributes": {}
+  }
+}
