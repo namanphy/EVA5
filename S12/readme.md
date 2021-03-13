@@ -43,6 +43,7 @@ gathered has following classes :
 - vest
 - mask
 - boots 
+
 We have used K-Means Clustering ALgorithm. The dataset was annotated and 
 exported in JSON Format which can is [present here](https://github.com/namanphy/EVA5/blob/main/S12/annotations.json).
 
@@ -59,6 +60,6 @@ cluster number 4, the curve becomes almost linear.
 ![k5](https://github.com/namanphy/EVA5/blob/main/S12/images/cluster_plot_k5.png)
 
 
-#### Quick Run: Go to Google Colab
+## Quick Run: Go to Google Colab
 Select Python 3 as the runtime type and GPU as the hardware accelerator and run the notebook - `main_S10.ipynb`.
 Make sure to install Pytorch.
