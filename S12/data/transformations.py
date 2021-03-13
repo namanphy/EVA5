@@ -53,6 +53,7 @@ class Transformations:
         self.transform = A.Compose(transforms_list)
 
     def __call__(self, image):
-        image = np.array(image)
+        if not isinstance(image, np.ndarray):
+            image = np.array(image)
         image = self.transform(image=image)['image']
         return image
