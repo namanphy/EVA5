@@ -36,6 +36,27 @@ Following is the accuracy curve during training and testing
 
 ## Part B - Identifying Clusters - Yolo bounding Box
 
+Here we have find the best total number of clusters(or number of anchor boxes) for the bounding 
+boxes given. The [dataset](https://github.com/namanphy/EVA5/tree/main/S12/images/dataset) 
+gathered has following classes :
+- hardhat
+- vest
+- mask
+- boots 
+We have used K-Means Clustering ALgorithm. The dataset was annotated and 
+exported in JSON Format which can is [present here](https://github.com/namanphy/EVA5/blob/main/S12/annotations.json).
+
+### Elbow curve - KMeans
+![elbow](https://github.com/namanphy/EVA5/blob/main/S12/images/elbow.png)
+
+For the above plot, k = 4 or k = 5 seems to be the best choice because after 
+cluster number 4, the curve becomes almost linear.
+
+#### For K=4
+![k4](https://github.com/namanphy/EVA5/blob/main/S12/images/cluster_plot_k4.png)
+
+#### For K=5
+![k5](https://github.com/namanphy/EVA5/blob/main/S12/images/cluster_plot_k5.png)
 
 
 #### Quick Run: Go to Google Colab
