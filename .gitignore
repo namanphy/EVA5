@@ -32,3 +32,8 @@ S12/engine/lr/__pycache__/
 S4/.ipynb_checkpoints
 S11/notebooks/
 S12/notebooks/
+
+
+# local data
+S11/data/cifar-10-batches-py/
+S11/data/cifar-10-python.tar.gz
