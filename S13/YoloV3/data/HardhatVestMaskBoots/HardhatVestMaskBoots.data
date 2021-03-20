@@ -1,0 +1,4 @@
+classes=4
+train=data/HardhatVestMaskBoots/train/train.txt
+valid=data/HardhatVestMaskBoots/test/test.txt
+names=data/HardhatVestMaskBoots/HardhatVestMaskBoots.names

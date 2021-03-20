@@ -1,0 +1,6 @@
+./data/HardhatVestMaskBoots/images/1.jpg
+./data/HardhatVestMaskBoots/images/2.jpg
+./data/HardhatVestMaskBoots/images/3.jpg
+./data/HardhatVestMaskBoots/images/4.jpg
+./data/HardhatVestMaskBoots/images/6.jpg
+./data/HardhatVestMaskBoots/images/8.jpg
