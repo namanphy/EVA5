@@ -12,9 +12,9 @@ The following tool is used to annotate the dataset:
 
 ## File Structure
 
-`images` : all the images used
-`labels` : labels of the images (as got from annotation tool)
-`test` : txt and shape files containing test images
-`train` : txt and shape files containing train images
-`<>.names` : class names seperated by '\n'
-`<>.data` : entry point for the model to the dataset
+- `images` : all the images used
+- `labels` : labels of the images (as got from annotation tool)
+- `test` : txt and shape files containing test images
+- `train` : txt and shape files containing train images
+- `<>.names` : class names seperated by '\n'
+- `<>.data` : entry point for the model to the dataset
