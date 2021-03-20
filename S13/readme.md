@@ -11,7 +11,7 @@ Here we are :
 
 Following image is the result of the object detection:
 
-! [annotated](https://github.com/namanphy/EVA5/blob/main/S13/Yolo_openCV/img_annotated.jpg)
+![annotated](https://github.com/namanphy/EVA5/blob/main/S13/Yolo_openCV/img_annotated.jpg)
 
 # YoloV3 using Pytorch
 We are here training and fine-tuning the YoloV3 model for our custom 
@@ -96,5 +96,5 @@ After extracting frames from video and doing inference.
 
 This is a sample result after training for 60 epochs.
 
-! [inference](https://github.com/namanphy/EVA5/blob/main/S13/YoloV3/inference.jpg)
+![inference](https://github.com/namanphy/EVA5/blob/main/S13/YoloV3/inference.jpg)
  
