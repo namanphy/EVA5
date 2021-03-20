@@ -26,7 +26,7 @@ all the instructions are with respect to this directory only.
 
 **Check out the following video by clicking below icon**
 
-[![](https://www.flaticon.com/svg/vstatic/svg/1384/1384060.svg?token=exp=1616266334~hmac=3cefbc5b24168ba5f02a7399f7007de6 =50x60)](https://youtu.be/1k42E9Skmeg)
+[<img src="https://www.flaticon.com/svg/vstatic/svg/1384/1384060.svg?token=exp=1616266334~hmac=3cefbc5b24168ba5f02a7399f7007de6" width="60">](https://youtu.be/1k42E9Skmeg)
 
 
 ## Hyper parameters
