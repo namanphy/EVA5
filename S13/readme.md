@@ -13,14 +13,20 @@ Following image is the result of the object detection:
 
 ![annotated](https://github.com/namanphy/EVA5/blob/main/S13/Yolo_openCV/img_annotated.jpg)
 
+-----
+
 # YoloV3 using Pytorch
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/194MYhJSLJ7okuNpCD3tr0VaZK-CrTRIh?usp=sharing)
+
 We are here training and fine-tuning the YoloV3 model for our custom 
 classes using transfer learning.
 
 The complete code is present [here](https://github.com/namanphy/EVA5/blob/main/S13/YoloV3) and 
 all the instructions are with respect to this directory only.
 
-**Check out the following video by clicking below**
+**Check out the following video by clicking below icon**
+
+[![](https://www.flaticon.com/svg/vstatic/svg/1384/1384060.svg?token=exp=1616266334~hmac=3cefbc5b24168ba5f02a7399f7007de6)](https://youtu.be/1k42E9Skmeg)
 
 
 ## Hyper parameters
