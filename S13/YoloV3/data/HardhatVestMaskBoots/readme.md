@@ -8,7 +8,7 @@ For custom dataset:
 Update the files <>.names, <>.data, <>.shapes, train.txt and test.txt accordingly.
 
 The following tool is used to annotate the dataset:
-https://github.com/miki998/YoloV3_Annotation_Tool
+[https://github.com/miki998/YoloV3_Annotation_Tool](https://github.com/miki998/YoloV3_Annotation_Tool)
 
 ## File Structure
 
