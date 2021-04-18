@@ -25,6 +25,7 @@ def MiDaS(pretrained=True, **kwargs):
 
     return model
 
+
 def MiDaS_small(pretrained=True, **kwargs):
     """ # This docstring shows up in hub.help()
     MiDaS model for monocular depth estimation
