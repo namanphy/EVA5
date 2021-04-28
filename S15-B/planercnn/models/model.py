@@ -1657,7 +1657,7 @@ class MaskRCNN(nn.Module):
         return results
 
     # 007 - Here we need to pass the outputs(tensors) from our ENCODER - forward function
-    def predict(self, input, mode, encoder_input, use_nms=1, use_refinement=False, return_feature_map=False):
+    def forward(self, input, mode, encoder_input, use_nms=1, use_refinement=False, return_feature_map=False):
         molded_images = input[0]
         image_metas = input[1]
 
