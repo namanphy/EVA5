@@ -19,7 +19,7 @@ import torch.optim as optim
 import torch.utils.data
 from torch.autograd import Variable
 
-import planercnn.utils
+import planercnn.utils as utils
 # from planercnn.nms.nms_wrapper import nms
 from torchvision.ops import nms
 from planercnn.roi_align.roi_align.crop_and_resize import CropAndResizeFunction
@@ -1167,7 +1167,7 @@ class Depth(nn.Module):
         
         self.depth_pred = nn.Conv2d(64, num_output_channels, kernel_size=3, stride=1, padding=1)
 
-        self.crop = True
+        self.crop = False  # 007 - True
         return
     
     def forward(self, feature_maps):
@@ -1673,12 +1673,15 @@ class MaskRCNN(nn.Module):
 
             self.apply(set_bn_eval)
 
+        print('molded_images', molded_images.shape)
         ## Feature extraction
         [p2_out, p3_out, p4_out, p5_out, p6_out] = self.fpn(molded_images,encoder_input)
         ## Note that P6 is used in RPN, but not in the classifier heads.
 
         rpn_feature_maps = [p2_out, p3_out, p4_out, p5_out, p6_out]
         mrcnn_feature_maps = [p2_out, p3_out, p4_out, p5_out]
+
+        print('FPN shapes:', [x.shape for x in rpn_feature_maps])
 
         feature_maps = [feature_map for index, feature_map in enumerate(rpn_feature_maps[::-1])]
         if self.config.PREDICT_DEPTH:
