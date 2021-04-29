@@ -135,13 +135,13 @@ class FPN(nn.Module):
         p5_out = self.P5_conv1(x)
         
         if self.bilinear_upsampling:
-            p4_out = self.P4_conv1(c4_out) + F.upsample(p5_out, scale_factor=2, mode='bilinear')
-            p3_out = self.P3_conv1(c3_out) + F.upsample(p4_out, scale_factor=2, mode='bilinear')
-            p2_out = self.P2_conv1(c2_out) + F.upsample(p3_out, scale_factor=2, mode='bilinear')
+            p4_out = self.P4_conv1(c4_out) + F.interpolate(p5_out, scale_factor=2, mode='bilinear', align_corners=False)
+            p3_out = self.P3_conv1(c3_out) + F.interpolate(p4_out, scale_factor=2, mode='bilinear', align_corners=False)
+            p2_out = self.P2_conv1(c2_out) + F.interpolate(p3_out, scale_factor=2, mode='bilinear', align_corners=False)
         else:
-            p4_out = self.P4_conv1(c4_out) + F.upsample(p5_out, scale_factor=2)
-            p3_out = self.P3_conv1(c3_out) + F.upsample(p4_out, scale_factor=2)
-            p2_out = self.P2_conv1(c2_out) + F.upsample(p3_out, scale_factor=2)
+            p4_out = self.P4_conv1(c4_out) + F.interpolate(p5_out, scale_factor=2)
+            p3_out = self.P3_conv1(c3_out) + F.interpolate(p4_out, scale_factor=2)
+            p2_out = self.P2_conv1(c2_out) + F.interpolate(p3_out, scale_factor=2)
             pass
 
         p5_out = self.P5_conv2(p5_out)
@@ -583,7 +583,8 @@ def detection_target_layer(proposals, gt_class_ids, gt_boxes, gt_masks, gt_param
     gt_boxes = gt_boxes.squeeze(0)
     gt_masks = gt_masks.squeeze(0)
     gt_parameters = gt_parameters.squeeze(0)
-    no_crowd_bool =  Variable(torch.ByteTensor(proposals.size()[0]*[True]), requires_grad=False)
+    #no_crowd_bool =  Variable(torch.ByteTensor(proposals.size()[0]*[True]), requires_grad=False)
+    no_crowd_bool = Variable(torch.ones(proposals.size()[0], dtype=torch.bool), requires_grad=False)  # 007
     if config.GPU_COUNT:
         no_crowd_bool = no_crowd_bool.cuda()
 
@@ -1187,11 +1188,11 @@ class Depth(nn.Module):
         x = self.depth_pred(x)
         
         if self.crop:
-            x = torch.nn.functional.interpolate(x, size=(480, 640), mode='bilinear')
-            zeros = torch.zeros((len(x), self.num_output_channels, 80, 640)).cuda()
+            x = torch.nn.functional.interpolate(x, size=(64, 512), mode='bilinear',align_corners=False)
+            zeros = torch.zeros((len(x), self.num_output_channels, 64, 512)).cuda()
             x = torch.cat([zeros, x, zeros], dim=2)
         else:
-            x = torch.nn.functional.interpolate(x, size=(640, 640), mode='bilinear')
+            x = torch.nn.functional.interpolate(x, size=(512, 512), mode='bilinear',align_corners=False)
             pass
         return x
 
@@ -1224,6 +1225,8 @@ def compute_rpn_class_loss(rpn_match, rpn_class_logits):
 
     ## Crossentropy loss
     loss = F.cross_entropy(rpn_class_logits, anchor_class)
+
+    #print('compute_rpn_class_loss', loss)
 
     return loss
 
@@ -1390,12 +1393,31 @@ def compute_mrcnn_parameter_loss(target_parameters, target_class_ids, pred_param
 ## 007
 def compute_losses(config, rpn_match, rpn_bbox, rpn_class_logits, rpn_pred_bbox, target_class_ids, mrcnn_class_logits, target_deltas, mrcnn_bbox, target_mask, mrcnn_mask, target_parameters, mrcnn_parameters):
 
-    rpn_class_loss = compute_rpn_class_loss(rpn_match, rpn_class_logits)
-    rpn_bbox_loss = compute_rpn_bbox_loss(rpn_bbox, rpn_match, rpn_pred_bbox)
+    #print('rpn_match',rpn_match.shape)
+    #print('rpn_class_logits',rpn_class_logits.shape)
+    # print('#'*66,' compute_losses')
+    # print('rpn_match',len(rpn_match),rpn_match.shape, rpn_class_logits.shape)
+    # print('rpn_bbox',len(rpn_bbox))
+    # print('rpn_class_logits',len(rpn_class_logits))
+    # print('rpn_pred_bbox',len(rpn_pred_bbox))
+    # print('target_class_ids',len(target_class_ids))
+    # print('mrcnn_class_logits',len(mrcnn_class_logits))
+    # print('target_deltas',len(target_deltas))
+    # print('mrcnn_bbox',len(mrcnn_bbox))
+    # print('target_mask',len(target_mask))
+    # print('mrcnn_mask',len(mrcnn_mask))
+    # print('target_parameters',len(target_parameters))
+    # print('mrcnn_parameters',len(mrcnn_parameters))
+
+
+    rpn_class_loss = torch.clamp(compute_rpn_class_loss(rpn_match, rpn_class_logits),max=10)
+    rpn_bbox_loss = torch.clamp(compute_rpn_bbox_loss(rpn_bbox, rpn_match, rpn_pred_bbox),max=10)
     mrcnn_class_loss = compute_mrcnn_class_loss(target_class_ids, mrcnn_class_logits)
     mrcnn_bbox_loss = compute_mrcnn_bbox_loss(target_deltas, target_class_ids, mrcnn_bbox)
     mrcnn_mask_loss = compute_mrcnn_mask_loss(config, target_mask, target_class_ids, target_parameters, mrcnn_mask)
     mrcnn_parameter_loss = compute_mrcnn_parameter_loss(target_parameters, target_class_ids, mrcnn_parameters)
+
+    #print('plane losses :', [x.item() for x in [rpn_class_loss, rpn_bbox_loss, mrcnn_class_loss, mrcnn_bbox_loss, mrcnn_mask_loss, mrcnn_parameter_loss]])
     return [rpn_class_loss, rpn_bbox_loss, mrcnn_class_loss, mrcnn_bbox_loss, mrcnn_mask_loss, mrcnn_parameter_loss]
 
 
@@ -1699,7 +1721,7 @@ class MaskRCNN(nn.Module):
         ranges = self.config.getRanges(input[-1]).transpose(1, 2).transpose(0, 1)
         zeros = torch.zeros(3, (self.config.IMAGE_MAX_DIM - self.config.IMAGE_MIN_DIM) // 2, self.config.IMAGE_MAX_DIM).cuda()
         ranges = torch.cat([zeros, ranges, zeros], dim=1)
-        ranges = torch.nn.functional.interpolate(ranges.unsqueeze(0), size=(160, 160), mode='bilinear')
+        ranges = torch.nn.functional.interpolate(ranges.unsqueeze(0), size=(160, 160), mode='bilinear',align_corners=False)
         ranges = self.coordinates(ranges * 10)
         
         
