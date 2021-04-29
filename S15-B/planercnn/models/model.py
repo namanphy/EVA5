@@ -21,7 +21,8 @@ from torch.autograd import Variable
 
 import planercnn.utils as utils
 # from planercnn.nms.nms_wrapper import nms
-from torchvision.ops import nms
+# from torchvision.ops import nms
+from planercnn.nms.nms import nms
 from planercnn.roi_align.roi_align.crop_and_resize import CropAndResizeFunction
 import cv2
 from planercnn.models.modules import *
