@@ -11,10 +11,10 @@ import cv2
 import numpy as np
 import torch
 from PIL import Image, ExifTags
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset # 007
 from tqdm import tqdm
 
-from utils.utils import xyxy2xywh, xywh2xyxy
+from utils.utils import xyxy2xywh, xywh2xyxy # 007
 
 help_url = 'https://github.com/ultralytics/yolov3/wiki/Train-Custom-Data'
 img_formats = ['.bmp', '.jpg', '.jpeg', '.png', '.tif', '.dng']
@@ -40,7 +40,7 @@ def exif_size(img):
 
     return s
 
-
+# 007
 class LoadImages:  # for inference
     def __init__(self, path, img_size=416):
         path = str(Path(path))  # os-agnostic
@@ -255,6 +255,7 @@ class LoadStreams:  # multiple IP or RTSP cameras
         return 0  # 1E12 frames = 32 streams at 30 FPS for 30 years
 
 
+# 007 - USING THIS FOR TRAINING
 class LoadImagesAndLabels(Dataset):  # for training/testing
     def __init__(self, path, img_size=416, batch_size=16, augment=False, hyp=None, rect=False, image_weights=False,
                  cache_labels=True, cache_images=False, single_cls=False):
