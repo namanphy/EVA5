@@ -103,8 +103,25 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-*.png
-*.pfm
-*.jpg
-*.jpeg
+#*.png
+#*.pfm
+#*.jpg
+#*.jpeg
 *.pt
+*/.idea
+*/*/.idea
+
+.idea/
+annotations.json
+model/
+data/
+engine/
+gradcam/
+images/
+utils.py
+cuda.py
+
+planercnn/models/model.py
+planercnn/models/modules.py
+planercnn/train_planercnn.py
+planercnn/visualize_utils.py
