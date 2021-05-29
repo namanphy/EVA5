@@ -11,6 +11,7 @@ import numpy as np
 from torch import nn
 import sys
 
+
 def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmold_masks=True, debug=False):
     """Reformats the detections of one image from the format of the neural
     network output to a format suitable for use in the rest of the
@@ -39,10 +40,10 @@ def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmo
         box = detections[detectionIndex][:4].long()
         if (box[2] - box[0]) * (box[3] - box[1]) <= 0:
             continue
-            
+
         mask = masks[detectionIndex]
         mask = mask.unsqueeze(0).unsqueeze(0)
-        mask = F.upsample(mask, size=(box[2] - box[0], box[3] - box[1]), mode='bilinear')
+        mask = F.interpolate(mask, size=(box[2] - box[0], box[3] - box[1]), mode='bilinear',align_corners=False)
         mask = mask.squeeze(0).squeeze(0)
 
         final_mask = torch.zeros(config.IMAGE_MAX_DIM, config.IMAGE_MAX_DIM).cuda()
@@ -50,7 +51,7 @@ def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmo
         final_masks.append(final_mask)
         continue
     final_masks = torch.stack(final_masks, dim=0)
-    
+
     if config.NUM_PARAMETER_CHANNELS > 0:
         ## We could potentially predict depth and/or normals for each instance (not being used)
         parameters_array = detection_masks[torch.arange(len(detection_masks)).cuda().long(), -config.NUM_PARAMETER_CHANNELS:, :, :]
@@ -59,12 +60,12 @@ def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmo
             box = detections[detectionIndex][:4].long()
             if (box[2] - box[0]) * (box[3] - box[1]) <= 0:
                 continue
-            parameters = F.upsample(parameters_array[detectionIndex].unsqueeze(0), size=(box[2] - box[0], box[3] - box[1]), mode='bilinear').squeeze(0)
+            parameters = F.interpolate(parameters_array[detectionIndex].unsqueeze(0), size=(box[2] - box[0], box[3] - box[1]), mode='bilinear').squeeze(0)
             final_parameters = torch.zeros(config.NUM_PARAMETER_CHANNELS, config.IMAGE_MAX_DIM, config.IMAGE_MAX_DIM).cuda()
             final_parameters[:, box[0]:box[2], box[1]:box[3]] = parameters
             final_parameters_array.append(final_parameters)
             continue
-        final_parameters = torch.stack(final_parameters_array, dim=0)        
+        final_parameters = torch.stack(final_parameters_array, dim=0)
         final_masks = torch.cat([final_masks.unsqueeze(1), final_parameters], dim=1)
         pass
 
@@ -75,7 +76,7 @@ def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmo
         ranges = config.getRanges(camera).transpose(1, 2).transpose(0, 1)
         zeros = torch.zeros(3, (config.IMAGE_MAX_DIM - config.IMAGE_MIN_DIM) // 2, config.IMAGE_MAX_DIM).cuda()        
         ranges = torch.cat([zeros, ranges, zeros], dim=1)
-        
+
         if config.NUM_PARAMETER_CHANNELS == 4:
             ## If we predict depthmap and normal map for each instance, we compute normals again (not used)
             masks_cropped = masks[:, 0:1, 80:560]
@@ -85,14 +86,14 @@ def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmo
             XYZ_np_cropped = (ranges * masks[:, 1:2])[:, :, 80:560]
             offsets = ((plane_normals.view(-1, 3, 1, 1) * XYZ_np_cropped).sum(1, keepdim=True) * masks_cropped).sum(-1).sum(-1) / mask_sum
             plane_parameters = plane_normals * offsets.view((-1, 1))
-            masks = masks[:, 0]            
+            masks = masks[:, 0]
         else:
             if config.NUM_PARAMETER_CHANNELS > 0:
-                ## If we predict depthmap independently for each instance, we use the individual depthmap instead of the global depth map (not used)                
+                ## If we predict depthmap independently for each instance, we use the individual depthmap instead of the global depth map (not used)
                 if config.OCCLUSION:
-                    XYZ_np = ranges * depth_np                
+                    XYZ_np = ranges * depth_np
                     XYZ_np_cropped = XYZ_np[:, 80:560]
-                    masks_cropped = masks[:, 1, 80:560]                    
+                    masks_cropped = masks[:, 1, 80:560]
                     masks = masks[:, 0]
                 else:
                     XYZ_np_cropped = (ranges * masks[:, 1:2])[:, :, 80:560]
@@ -101,9 +102,9 @@ def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmo
                     pass
             else:
                 ## We use the global depthmap prediction to compute plane offsets
-                XYZ_np = ranges * depth_np                
+                XYZ_np = ranges * depth_np
                 XYZ_np_cropped = XYZ_np[:, 80:560]
-                masks_cropped = masks[:, 80:560]                            
+                masks_cropped = masks[:, 80:560]
                 pass
 
             if config.FITTING_TYPE % 2 == 1:
@@ -114,10 +115,10 @@ def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmo
                 AA = (A.unsqueeze(2) * A.unsqueeze(1)).sum(-1).sum(-1)
                 plane_parameters = torch.stack([torch.matmul(torch.inverse(AA[planeIndex]), Ab[planeIndex]) for planeIndex in range(len(AA))], dim=0)
                 plane_offsets = torch.norm(plane_parameters, dim=-1, keepdim=True)
-                plane_parameters = plane_parameters / torch.clamp(torch.pow(plane_offsets, 2), 1e-4)                
+                plane_parameters = plane_parameters / torch.clamp(torch.pow(plane_offsets, 2), 1e-4)
             else:
-                ## We compute only plane offset using depthmap prediction                
-                plane_parameters = detections[:, 6:9]            
+                ## We compute only plane offset using depthmap prediction
+                plane_parameters = detections[:, 6:9]
                 plane_normals = plane_parameters / torch.clamp(torch.norm(plane_parameters, dim=-1, keepdim=True), 1e-4)
                 offsets = ((plane_normals.view(-1, 3, 1, 1) * XYZ_np_cropped).sum(1) * masks_cropped).sum(-1).sum(-1) / torch.clamp(masks_cropped.sum(-1).sum(-1), min=1e-4)
                 plane_parameters = plane_normals * offsets.view((-1, 1))
@@ -127,11 +128,12 @@ def unmoldDetections(config, camera, detections, detection_masks, depth_np, unmo
         pass
     return detections, masks
 
+
 def planeXYZModule(ranges, planes, width, height, max_depth=10):
     """Compute plane XYZ from plane parameters
     ranges: K^(-1)x
     planes: plane parameters
-    
+
     Returns:
     plane depthmaps
     """
@@ -148,7 +150,7 @@ def planeDepthsModule(ranges, planes, width, height, max_depth=10):
     """Compute coordinate maps from plane parameters
     ranges: K^(-1)x
     planes: plane parameters
-    
+
     Returns:
     plane coordinate maps
     """
@@ -199,7 +201,7 @@ def calcXYZModule(config, camera, detections, masks, depth_np, return_individual
     """Compute a global coordinate map from plane detections"""
     ranges = config.getRanges(camera)
     ranges_ori = ranges
-    zeros = torch.zeros(3, (config.IMAGE_MAX_DIM - config.IMAGE_MIN_DIM) // 2, config.IMAGE_MAX_DIM).cuda()        
+    zeros = torch.zeros(3, (config.IMAGE_MAX_DIM - config.IMAGE_MIN_DIM) // 2, config.IMAGE_MAX_DIM).cuda()
     ranges = torch.cat([zeros, ranges.transpose(1, 2).transpose(0, 1), zeros], dim=1)
     XYZ_np = ranges * depth_np
 
@@ -210,9 +212,9 @@ def calcXYZModule(config, camera, detections, masks, depth_np, return_individual
         else:
             return XYZ_np, detection_mask
         pass
-    
+
     plane_parameters = detections[:, 6:9]
-    
+
     XYZ = torch.ones((3, config.IMAGE_MAX_DIM, config.IMAGE_MAX_DIM)).cuda() * 10
     depthMask = torch.zeros((config.IMAGE_MAX_DIM, config.IMAGE_MAX_DIM)).cuda()
     planeXYZ = planeXYZModule(ranges_ori, plane_parameters, width=config.IMAGE_MAX_DIM, height=config.IMAGE_MIN_DIM)
@@ -220,7 +222,7 @@ def calcXYZModule(config, camera, detections, masks, depth_np, return_individual
     zeros = torch.zeros(3, (config.IMAGE_MAX_DIM - config.IMAGE_MIN_DIM) // 2, config.IMAGE_MAX_DIM, int(planeXYZ.shape[-1])).cuda()
     planeXYZ = torch.cat([zeros, planeXYZ, zeros], dim=1)
 
-    one_hot = True    
+    one_hot = True
     if one_hot:
         for detectionIndex in range(len(detections)):
             mask = masks[detectionIndex]
@@ -264,7 +266,7 @@ class ConvBlock(torch.nn.Module):
             self.conv = torch.nn.Conv2d(in_planes, out_planes, kernel_size=kernel_size, stride=stride, padding=padding, bias=not self.use_bn)
         elif mode == 'deconv':
             self.conv = torch.nn.ConvTranspose2d(in_planes, out_planes, kernel_size=kernel_size, stride=stride, padding=padding, output_padding=output_padding, bias=not self.use_bn)
-        elif mode == 'upsample':
+        elif mode == 'interpolate':
             self.conv = torch.nn.Sequential(torch.nn.Upsample(scale_factor=stride, mode='nearest'), torch.nn.Conv2d(in_planes, out_planes, kernel_size=kernel_size, stride=1, padding=padding, bias=not self.use_bn))
         elif mode == 'conv_3d':
             self.conv = torch.nn.Conv3d(in_planes, out_planes, kernel_size=kernel_size, stride=stride, padding=padding, bias=not self.use_bn)
@@ -281,7 +283,7 @@ class ConvBlock(torch.nn.Module):
             pass
         self.relu = torch.nn.ReLU(inplace=True)
         return
-   
+
     def forward(self, inp):
         if self.use_bn:
             return self.relu(self.bn(self.conv(inp)))
@@ -289,7 +291,7 @@ class ConvBlock(torch.nn.Module):
             return self.relu(self.conv(inp))
 
 class LinearBlock(torch.nn.Module):
-    """The block consists of a linear layer and a ReLU layer"""    
+    """The block consists of a linear layer and a ReLU layer"""
     def __init__(self, in_planes, out_planes):
         super(LinearBlock, self).__init__()
         self.linear = torch.nn.Linear(in_planes, out_planes)
@@ -297,7 +299,7 @@ class LinearBlock(torch.nn.Module):
         return
 
     def forward(self, inp):
-        return self.relu(self.linear(inp))       
+        return self.relu(self.linear(inp))
 
 
 def l2NormLossMask(pred, gt, mask, dim):
@@ -305,11 +307,11 @@ def l2NormLossMask(pred, gt, mask, dim):
     return torch.sum(torch.norm(pred - gt, dim=dim) * mask) / torch.clamp(mask.sum(), min=1)
 
 def l2LossMask(pred, gt, mask):
-    """MSE with a mask"""    
+    """MSE with a mask"""
     return torch.sum(torch.pow(pred - gt, 2) * mask) / torch.clamp(mask.sum(), min=1)
 
 def l1LossMask(pred, gt, mask):
-    """L1 loss with a mask"""        
+    """L1 loss with a mask"""
     return torch.sum(torch.abs(pred - gt) * mask) / torch.clamp(mask.sum(), min=1)
 
 
@@ -337,7 +339,7 @@ class PlaneToDepth(torch.nn.Module):
             self.VRANGE = ((torch.arange(H).float() + 0.5) / H).cuda().view((-1, 1)).repeat(1, W)
             self.ONES = torch.ones((H, W)).cuda()
             pass
-        
+
     def forward(self, intrinsics, plane, return_XYZ=False):
 
         """
@@ -368,7 +370,8 @@ class PlaneToDepth(torch.nn.Module):
 
         if return_XYZ:
             return depth, depth.unsqueeze(-1) * ranges
-        return depth        
+        return depth
+
 
 class PlaneToDepthLayer(torch.nn.Module):
 
