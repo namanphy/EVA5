@@ -81,6 +81,7 @@ def visualizeBatchDeMoN(options, input_dict, results, indexOffset=0, prefix='', 
         continue
     return
 
+# * 007 - Here I enter - from evaluate.py
 def visualizeBatchPair(options, config, inp_pair, detection_pair, indexOffset=0, prefix='', suffix='', write_ply=False, write_new_view=False):
     detection_images = []    
     for pair_index, (input_dict, detection_dict) in enumerate(zip(inp_pair, detection_pair)):
@@ -194,7 +195,8 @@ def visualizeBatchDetection(options, config, input_dict, detection_dict, indexOf
     if 'depth' in input_dict:
         depths = input_dict['depth'].detach().cpu().numpy()                
         depth_gt = depths[0]
-        cv2.imwrite(options.test_dir + '/' + str(indexOffset) + '_depth' + suffix + '.png', drawDepthImage(depth_gt[80:560]))
+        # * 007 - Not writing depth images
+        #cv2.imwrite(options.test_dir + '/' + str(indexOffset) + '_depth' + suffix + '.png', drawDepthImage(depth_gt[80:560]))
         pass
 
     windows = (0, 0, images.shape[1], images.shape[2])        
@@ -241,18 +243,21 @@ def visualizeBatchDetection(options, config, input_dict, detection_dict, indexOf
         
     if 'depth' in detection_dict:    
         depth_pred = detection_dict['depth'][0].detach().cpu().numpy()
-        cv2.imwrite(options.test_dir + '/' + str(indexOffset) + '_depth' + suffix + prediction_suffix + '.png', drawDepthImage(depth_pred[80:560]))                    
-        if options.debug:
-            valid_mask = (depth_gt > 1e-4) * (input_dict['segmentation'].detach().cpu().numpy()[0] >= 0) * (detection_dict['mask'].detach().cpu().numpy().squeeze() > 0.5)
-            pass
+        # * 007 - Not writing depth images
+        # cv2.imwrite(options.test_dir + '/' + str(indexOffset) + '_depth' + suffix + prediction_suffix + '.png', drawDepthImage(depth_pred[80:560]))                    
+        # if options.debug:
+        #     valid_mask = (depth_gt > 1e-4) * (input_dict['segmentation'].detach().cpu().numpy()[0] >= 0) * (detection_dict['mask'].detach().cpu().numpy().squeeze() > 0.5)
+        #     pass
         pass
     
     if 'depth_np' in detection_dict:
-        cv2.imwrite(options.test_dir + '/' + str(indexOffset) + '_depth' + suffix + prediction_suffix + '_np.png', drawDepthImage(detection_dict['depth_np'].squeeze().detach().cpu().numpy()[80:560]))
+        # * 007 - Not writing depth images
+        # cv2.imwrite(options.test_dir + '/' + str(indexOffset) + '_depth' + suffix + prediction_suffix + '_np.png', drawDepthImage(detection_dict['depth_np'].squeeze().detach().cpu().numpy()[80:560]))
         pass
 
     if 'depth_ori' in detection_dict:
-        cv2.imwrite(options.test_dir + '/' + str(indexOffset) + '_depth' + suffix + prediction_suffix + '_ori.png', drawDepthImage(detection_dict['depth_ori'].squeeze().detach().cpu().numpy()[80:560]))
+        # * 007 - Not writing depth images
+        # cv2.imwrite(options.test_dir + '/' + str(indexOffset) + '_depth' + suffix + prediction_suffix + '_ori.png', drawDepthImage(detection_dict['depth_ori'].squeeze().detach().cpu().numpy()[80:560]))
         pass
     
 
