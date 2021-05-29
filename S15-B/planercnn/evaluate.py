@@ -594,12 +594,13 @@ def evaluate(options):
                     evaluateBatchDetection(options, config, input_pair[c], detection_pair[c], statistics=statistics, printInfo=options.debug, evaluate_plane=options.dataset == '')
                     continue
             else:
-                for c in range(len(detection_pair)):
-                    np.save(options.test_dir + '/' + str(sampleIndex % 500) + '_plane_parameters_' + str(c) + '.npy', detection_pair[c]['detection'][:, 6:9])
-                    np.save(options.test_dir + '/' + str(sampleIndex % 500) + '_plane_masks_' + str(c) + '.npy', detection_pair[c]['masks'][:, 80:560])
-                    continue
+                # for c in range(len(detection_pair)):
+                #     np.save(options.test_dir + '/' + str(sampleIndex % 500) + '_plane_parameters_' + str(c) + '.npy', detection_pair[c]['detection'][:, 6:9])
+                #     np.save(options.test_dir + '/' + str(sampleIndex % 500) + '_plane_masks_' + str(c) + '.npy', detection_pair[c]['masks'][:, 80:560])
+                #     continue
                 pass
-                            
+            
+            # 007 - Here, it is taking the predictions and sending them.                
             if sampleIndex < 30 or options.debug or options.dataset != '':
                 visualizeBatchPair(options, config, input_pair, detection_pair, indexOffset=sampleIndex % 500, suffix='_' + name + options.modelType, write_ply=options.testingIndex >= 0, write_new_view=options.testingIndex >= 0 and 'occlusion' in options.suffix)
                 pass
